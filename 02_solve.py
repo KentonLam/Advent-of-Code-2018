@@ -41,9 +41,10 @@ def solve_2(file_input: iter) -> str:
     seen = set() 
     for word in file_input:
         for i in range(len(word)):
-            word_part = word[:i] + word[i+1:] # delete char at i-th index
+            word_part = word[:i] + '!' + word[i+1:] # replace i-th index with !
             if word_part in seen:
-                return word_part
+                print(word)
+                return word_part.replace('!', '')
             seen.add(word_part)
 
 
