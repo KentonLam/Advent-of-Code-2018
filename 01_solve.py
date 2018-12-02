@@ -3,8 +3,16 @@ def solve_1(numbers):
     return sum(numbers)
 
 def solve_2(numbers):
-    pass
+    seen = {0}
+    freq = 0
+    while True:
+        for change in numbers:
+            freq += change
+            if freq in seen:
+                return freq
+            seen.add(freq)
 
 if __name__ == "__main__":
     with open('01_input.txt') as f:
-        print(solve_1(map(int, f.readlines())))
+        numbers = list(map(int, f.readlines()))
+        print(solve_2(numbers))
