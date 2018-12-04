@@ -3,7 +3,7 @@ from collections import defaultdict
 def get_time(line):
     return int(line.split(':')[1].split(']')[0])
 
-def solve_1(chrono):
+def parse_guard_sleeps(chrono):
     # mapping from guard number to sleep mapping
     # sleep mapping is minute to times asleep.
     guard_hours_asleep = defaultdict(lambda: [0]*60)
@@ -21,19 +21,22 @@ def solve_1(chrono):
             for i in range(time_asleep, get_time(line)):
                 guard_hours_asleep[code][i] += 1
 
-    #sol = list(sorted(guard_hours_asleep.items(), key=lambda x: sum(x[1]), reverse=True))[0]
-    sol = list(sorted(guard_hours_asleep.items(), key=lambda x: max(x[1]), reverse=True))[0]
-    print(sol)
-    guard = sol[0]
+    return guard_hours_asleep
 
-    max_hours = max(guard_hours_asleep[guard])
-    print(max_hours)
-    print(guard_hours_asleep[guard].index(max_hours))
+def solve_1(chrono):
+    guard_hours_asleep = parse_guard_sleeps(chrono)
 
+    sol = max(guard_hours_asleep.items(), key=lambda x: sum(x[1]))
+    print(f'part 1: guard {sol[0]}, minute {sol[1].index(max(sol[1]))}')
 
+def solve_2(chrono):
+    guard_hours_asleep = parse_guard_sleeps(chrono)
 
-
+    sol = max(guard_hours_asleep.items(), key=lambda x: max(x[1]))
+    print(f'part 2: guard {sol[0]}, minute {sol[1].index(max(sol[1]))}')
 
 if __name__ == "__main__":
     with open('04_input.txt') as f:
-        print(solve_1(list(f)))
+        input_list = list(f)
+        solve_1(input_list)
+        solve_2(input_list)
