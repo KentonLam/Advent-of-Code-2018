@@ -76,7 +76,7 @@ def solve_1(input_lines):
         print('Iteration', i)
         moved = set()
         claim_changes = dict() # dict of changes to 'claimed' in this iteration.
-        queue_changes = defaultdict(lambda: defaultdict(set))
+        queue_changes = defaultdict(set)
 
         for point, to_check in queue.items():
             for a_coord in to_check:
@@ -89,36 +89,32 @@ def solve_1(input_lines):
                     # blacklist with None value.
                     if claim_changes[a_coord] != point:
                         claim_changes[a_coord] = None
-                        queue_changes[claim_changes[a_coord]][a_coord].clear()
                 else:
                     log('  is closest to this point, distance', i)
                     claim_changes[a_coord] = point
-                    to_add = set(x for x in get_adj(a_coord) if x not in claimed)
-                    if to_add:
-                        queue_changes[point][a_coord].update(to_add)
-                        moved.add(point)
+                    queue_changes[point].update(get_adj(a_coord))
+                    moved.add(point)
             to_check.clear()
             
         assert len(set(claimed.keys()) & set(claim_changes.keys())) == 0
         claimed.update(claim_changes)
-        for pt, coords_map in queue_changes.items():
+        for pt, coords in queue_changes.items():
             if pt is None: continue
-            log('updating queue of', pt, 'with', coords_map)
-            for coords in coords_map.values():
-                queue[pt].extend(coords)
+            log('updating queue of', pt, 'with', coords)
+            queue[pt].extend(coords)
 
         residual = moved - unbounded
 
         if len(residual) <= 0: # HACK. potentially, compute_unbounded is incorrect.
             print('only unbounded points were moved. finished.')
             break
-        print('changed minus unbounded', residual)
+        log('changed minus unbounded', residual)
         i += 1
     
     print('computing')
     areas = defaultdict(lambda: 0)
     for claimer in claimed.values():
-        if claimer not in (unbounded | residual):
+        if claimer is not None and claimer not in (unbounded | residual):
             areas[claimer] += 1
 
     print('all areas')
