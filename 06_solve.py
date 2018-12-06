@@ -13,20 +13,29 @@ def get_adj(coord):
         adj.add((coord[0] + dx, coord[1] + dy))
     return adj
 
-def max_angle_difference(array):
-    array.sort()
-    return max((array[(i+1)%len(array)]-array[i])%(2*math.pi) for i in range(len(array)))
-
 def compute_unbounded(coords):
     unbounded = []
     for coord in coords:
-        angles = []
+        bounds = [False]*4
         for coord2 in coords:
             if coord == coord2:
                 continue 
-            angles.append(math.atan2(coord2[1]-coord[1], coord2[0]-coord[0]))
-        if max_angle_difference(angles) >= math.pi:
-            log(coord)
+            #   0
+            # 1 x 3 
+            #   2
+            relx, rely = coord2[0] - coord[0], coord2[1] - coord[1]
+
+            # note: a point on a diagonal bounds 2 quadrants.
+            if rely >= relx and rely >= -relx:
+                bounds[0] = True
+            if rely >= relx and rely <= -relx:
+                bounds[1] = True 
+            if rely <= relx and rely <= -relx:
+                bounds[2] = True 
+            if rely <= relx and rely >= -relx:
+                bounds[3] = True 
+            
+        if not all(bounds):
             unbounded.append(coord)
     return unbounded
 
@@ -61,7 +70,8 @@ def solve_1(input_lines):
         queue[pt] = [pt]
 
     i = 0
-    # perform a BFS across all the points.
+    # we essentially perform 'n' BFS's in parallel, originating at each
+    #  point.
     while queue:
         print('Iteration', i)
         moved = set()
@@ -99,12 +109,10 @@ def solve_1(input_lines):
 
         residual = moved - unbounded
 
-        if len(residual) <= 8: # HACK. potentially, compute_unbounded is incorrect.
+        if len(residual) <= 0: # HACK. potentially, compute_unbounded is incorrect.
             print('only unbounded points were moved. finished.')
             break
         print('changed minus unbounded', residual)
-        if len(residual) <= 2:
-            print('pause')
         i += 1
     
     print('computing')
@@ -162,4 +170,4 @@ if __name__ == "__main__":
     file = sys.argv[1] if len(sys.argv) > 1 else '06_input.txt'
     with open(file) as f:
         input_lines = [x.rstrip() for x in f]
-        log(solve_2(input_lines))
+        log(solve_1(input_lines))
