@@ -1,0 +1,695 @@
+(1, 1)
+(1, 6)
+(8, 3)
+(8, 9)
+Iteration 0
+considering point (1, 1) to (1, 1)
+  is closest to this point, distance 0
+considering point (1, 6) to (1, 6)
+  is closest to this point, distance 0
+considering point (8, 3) to (8, 3)
+  is closest to this point, distance 0
+considering point (3, 4) to (3, 4)
+  is closest to this point, distance 0
+considering point (5, 5) to (5, 5)
+  is closest to this point, distance 0
+considering point (8, 9) to (8, 9)
+  is closest to this point, distance 0
+updating queue of (1, 1) with {(1, 2), (1, 0), (0, 1), (2, 1)}
+updating queue of (1, 6) with {(1, 5), (2, 6), (0, 6), (1, 7)}
+updating queue of (8, 3) with {(7, 3), (9, 3), (8, 2), (8, 4)}
+updating queue of (3, 4) with {(2, 4), (4, 4), (3, 3), (3, 5)}
+updating queue of (5, 5) with {(5, 6), (5, 4), (4, 5), (6, 5)}
+updating queue of (8, 9) with {(9, 9), (8, 8), (8, 10), (7, 9)}
+changed minus unbounded {(3, 4), (5, 5)}
+Iteration 1
+considering point (1, 1) to (1, 2)
+  is closest to this point, distance 1
+considering point (1, 1) to (1, 0)
+  is closest to this point, distance 1
+considering point (1, 1) to (0, 1)
+  is closest to this point, distance 1
+considering point (1, 1) to (2, 1)
+  is closest to this point, distance 1
+considering point (1, 6) to (1, 5)
+  is closest to this point, distance 1
+considering point (1, 6) to (2, 6)
+  is closest to this point, distance 1
+considering point (1, 6) to (0, 6)
+  is closest to this point, distance 1
+considering point (1, 6) to (1, 7)
+  is closest to this point, distance 1
+considering point (8, 3) to (7, 3)
+  is closest to this point, distance 1
+considering point (8, 3) to (9, 3)
+  is closest to this point, distance 1
+considering point (8, 3) to (8, 2)
+  is closest to this point, distance 1
+considering point (8, 3) to (8, 4)
+  is closest to this point, distance 1
+considering point (3, 4) to (2, 4)
+  is closest to this point, distance 1
+considering point (3, 4) to (4, 4)
+  is closest to this point, distance 1
+considering point (3, 4) to (3, 3)
+  is closest to this point, distance 1
+considering point (3, 4) to (3, 5)
+  is closest to this point, distance 1
+considering point (5, 5) to (5, 6)
+  is closest to this point, distance 1
+considering point (5, 5) to (5, 4)
+  is closest to this point, distance 1
+considering point (5, 5) to (4, 5)
+  is closest to this point, distance 1
+considering point (5, 5) to (6, 5)
+  is closest to this point, distance 1
+considering point (8, 9) to (9, 9)
+  is closest to this point, distance 1
+considering point (8, 9) to (8, 8)
+  is closest to this point, distance 1
+considering point (8, 9) to (8, 10)
+  is closest to this point, distance 1
+considering point (8, 9) to (7, 9)
+  is closest to this point, distance 1
+updating queue of (1, 1) with {(-1, 1), (1, 3), (0, 0), (3, 1), (2, 0), (1, 1), (2, 2), (1, -1), (0, 2)}
+updating queue of (1, 6) with {(2, 7), (1, 4), (0, 7), (1, 8), (0, 5), (1, 6), (3, 6), (2, 5), (-1, 6)}
+updating queue of (8, 3) with {(8, 3), (9, 2), (8, 1), (8, 5), (7, 4), (6, 3), (9, 4), (10, 3), (7, 2)}
+updating queue of (3, 4) with {(5, 4), (3, 2), (4, 5), (1, 4), (2, 3), (4, 3), (3, 6), (2, 5), (3, 4)}
+updating queue of (5, 5) with {(6, 4), (3, 5), (4, 6), (5, 5), (6, 6), (5, 7), (4, 4), (7, 5), (5, 3)}
+updating queue of (8, 9) with {(6, 9), (9, 8), (8, 11), (9, 10), (8, 9), (8, 7), (7, 10), (7, 8), (10, 9)}
+changed minus unbounded {(3, 4), (5, 5)}
+Iteration 2
+considering point (1, 1) to (-1, 1)
+  is closest to this point, distance 2
+considering point (1, 1) to (1, 3)
+  is closest to this point, distance 2
+considering point (1, 1) to (0, 0)
+  is closest to this point, distance 2
+considering point (1, 1) to (3, 1)
+  is closest to this point, distance 2
+considering point (1, 1) to (2, 0)
+  is closest to this point, distance 2
+considering point (1, 1) to (1, 1)
+  already claimed!
+considering point (1, 1) to (2, 2)
+  is closest to this point, distance 2
+considering point (1, 1) to (1, -1)
+  is closest to this point, distance 2
+considering point (1, 1) to (0, 2)
+  is closest to this point, distance 2
+considering point (1, 6) to (2, 7)
+  is closest to this point, distance 2
+considering point (1, 6) to (1, 4)
+  is closest to this point, distance 2
+considering point (1, 6) to (0, 7)
+  is closest to this point, distance 2
+considering point (1, 6) to (1, 8)
+  is closest to this point, distance 2
+considering point (1, 6) to (0, 5)
+  is closest to this point, distance 2
+considering point (1, 6) to (1, 6)
+  already claimed!
+considering point (1, 6) to (3, 6)
+  is closest to this point, distance 2
+considering point (1, 6) to (2, 5)
+  is closest to this point, distance 2
+considering point (1, 6) to (-1, 6)
+  is closest to this point, distance 2
+considering point (8, 3) to (8, 3)
+  already claimed!
+considering point (8, 3) to (9, 2)
+  is closest to this point, distance 2
+considering point (8, 3) to (8, 1)
+  is closest to this point, distance 2
+considering point (8, 3) to (8, 5)
+  is closest to this point, distance 2
+considering point (8, 3) to (7, 4)
+  is closest to this point, distance 2
+considering point (8, 3) to (6, 3)
+  is closest to this point, distance 2
+considering point (8, 3) to (9, 4)
+  is closest to this point, distance 2
+considering point (8, 3) to (10, 3)
+  is closest to this point, distance 2
+considering point (8, 3) to (7, 2)
+  is closest to this point, distance 2
+considering point (3, 4) to (5, 4)
+  already claimed!
+considering point (3, 4) to (3, 2)
+  is closest to this point, distance 2
+considering point (3, 4) to (4, 5)
+  already claimed!
+considering point (3, 4) to (1, 4)
+  equidistant with (1, 6)
+considering point (3, 4) to (2, 3)
+  is closest to this point, distance 2
+considering point (3, 4) to (4, 3)
+  is closest to this point, distance 2
+considering point (3, 4) to (3, 6)
+  equidistant with (1, 6)
+considering point (3, 4) to (2, 5)
+  equidistant with (1, 6)
+considering point (3, 4) to (3, 4)
+  already claimed!
+considering point (5, 5) to (6, 4)
+  is closest to this point, distance 2
+considering point (5, 5) to (3, 5)
+  already claimed!
+considering point (5, 5) to (4, 6)
+  is closest to this point, distance 2
+considering point (5, 5) to (5, 5)
+  already claimed!
+considering point (5, 5) to (6, 6)
+  is closest to this point, distance 2
+considering point (5, 5) to (5, 7)
+  is closest to this point, distance 2
+considering point (5, 5) to (4, 4)
+  already claimed!
+considering point (5, 5) to (7, 5)
+  is closest to this point, distance 2
+considering point (5, 5) to (5, 3)
+  is closest to this point, distance 2
+considering point (8, 9) to (6, 9)
+  is closest to this point, distance 2
+considering point (8, 9) to (9, 8)
+  is closest to this point, distance 2
+considering point (8, 9) to (8, 11)
+  is closest to this point, distance 2
+considering point (8, 9) to (9, 10)
+  is closest to this point, distance 2
+considering point (8, 9) to (8, 9)
+  already claimed!
+considering point (8, 9) to (8, 7)
+  is closest to this point, distance 2
+considering point (8, 9) to (7, 10)
+  is closest to this point, distance 2
+considering point (8, 9) to (7, 8)
+  is closest to this point, distance 2
+considering point (8, 9) to (10, 9)
+  is closest to this point, distance 2
+updating queue of (1, 1) with {(3, 2), (-1, 0), (3, 0), (-1, 2), (2, -1), (1, 4), (2, 1), (2, 3), (1, 0), (0, 3), (1, -2), (0, 1), (1, 2), (-2, 1), (0, -1), (4, 1)}
+updating queue of (8, 3) with {(7, 3), (6, 4), (8, 6), (8, 2), (9, 1), (7, 1), (10, 4), (9, 3), (8, 0), (7, 5), (6, 2), (5, 3), (10, 2), (11, 3), (9, 5), (8, 4)}
+updating queue of (3, 4) with {(1, 3), (3, 3), (3, 1), (4, 4), (2, 2), (4, 2), (2, 4), (5, 3)}
+updating queue of (5, 5) with {(5, 4), (4, 7), (6, 7), (5, 8), (4, 5), (5, 6), (7, 6), (5, 2), (6, 3), (7, 4), (3, 6), (4, 3), (8, 5), (6, 5)}
+updating queue of (8, 9) with {(5, 9), (11, 9), (7, 7), (7, 11), (7, 9), (10, 8), (6, 8), (8, 12), (10, 10), (6, 10), (9, 9), (8, 10), (8, 8), (9, 11), (8, 6), (9, 7)}
+changed minus unbounded {(3, 4), (5, 5)}
+Iteration 3
+considering point (1, 1) to (3, 2)
+  already claimed!
+considering point (1, 1) to (-1, 0)
+  is closest to this point, distance 3
+considering point (1, 1) to (3, 0)
+  is closest to this point, distance 3
+considering point (1, 1) to (-1, 2)
+  is closest to this point, distance 3
+considering point (1, 1) to (2, -1)
+  is closest to this point, distance 3
+considering point (1, 1) to (1, 4)
+  already claimed!
+considering point (1, 1) to (2, 1)
+  already claimed!
+considering point (1, 1) to (2, 3)
+  already claimed!
+considering point (1, 1) to (1, 0)
+  already claimed!
+considering point (1, 1) to (0, 3)
+  is closest to this point, distance 3
+considering point (1, 1) to (1, -2)
+  is closest to this point, distance 3
+considering point (1, 1) to (0, 1)
+  already claimed!
+considering point (1, 1) to (1, 2)
+  already claimed!
+considering point (1, 1) to (-2, 1)
+  is closest to this point, distance 3
+considering point (1, 1) to (0, -1)
+  is closest to this point, distance 3
+considering point (1, 1) to (4, 1)
+  is closest to this point, distance 3
+considering point (8, 3) to (7, 3)
+  already claimed!
+considering point (8, 3) to (6, 4)
+  already claimed!
+considering point (8, 3) to (8, 6)
+  is closest to this point, distance 3
+considering point (8, 3) to (8, 2)
+  already claimed!
+considering point (8, 3) to (9, 1)
+  is closest to this point, distance 3
+considering point (8, 3) to (7, 1)
+  is closest to this point, distance 3
+considering point (8, 3) to (10, 4)
+  is closest to this point, distance 3
+considering point (8, 3) to (9, 3)
+  already claimed!
+considering point (8, 3) to (8, 0)
+  is closest to this point, distance 3
+considering point (8, 3) to (7, 5)
+  already claimed!
+considering point (8, 3) to (6, 2)
+  is closest to this point, distance 3
+considering point (8, 3) to (5, 3)
+  already claimed!
+considering point (8, 3) to (10, 2)
+  is closest to this point, distance 3
+considering point (8, 3) to (11, 3)
+  is closest to this point, distance 3
+considering point (8, 3) to (9, 5)
+  is closest to this point, distance 3
+considering point (8, 3) to (8, 4)
+  already claimed!
+considering point (3, 4) to (1, 3)
+  already claimed!
+considering point (3, 4) to (3, 3)
+  already claimed!
+considering point (3, 4) to (3, 1)
+  already claimed!
+considering point (3, 4) to (4, 4)
+  already claimed!
+considering point (3, 4) to (2, 2)
+  already claimed!
+considering point (3, 4) to (4, 2)
+  is closest to this point, distance 3
+considering point (3, 4) to (2, 4)
+  already claimed!
+considering point (3, 4) to (5, 3)
+  already claimed!
+considering point (5, 5) to (5, 4)
+  already claimed!
+considering point (5, 5) to (4, 7)
+  is closest to this point, distance 3
+considering point (5, 5) to (6, 7)
+  is closest to this point, distance 3
+considering point (5, 5) to (5, 8)
+  is closest to this point, distance 3
+considering point (5, 5) to (4, 5)
+  already claimed!
+considering point (5, 5) to (5, 6)
+  already claimed!
+considering point (5, 5) to (7, 6)
+  is closest to this point, distance 3
+considering point (5, 5) to (5, 2)
+  is closest to this point, distance 3
+considering point (5, 5) to (6, 3)
+  already claimed!
+considering point (5, 5) to (7, 4)
+  already claimed!
+considering point (5, 5) to (3, 6)
+  already claimed!
+considering point (5, 5) to (4, 3)
+  already claimed!
+considering point (5, 5) to (8, 5)
+  already claimed!
+considering point (5, 5) to (6, 5)
+  already claimed!
+considering point (8, 9) to (5, 9)
+  is closest to this point, distance 3
+considering point (8, 9) to (11, 9)
+  is closest to this point, distance 3
+considering point (8, 9) to (7, 7)
+  is closest to this point, distance 3
+considering point (8, 9) to (7, 11)
+  is closest to this point, distance 3
+considering point (8, 9) to (7, 9)
+  already claimed!
+considering point (8, 9) to (10, 8)
+  is closest to this point, distance 3
+considering point (8, 9) to (6, 8)
+  is closest to this point, distance 3
+considering point (8, 9) to (8, 12)
+  is closest to this point, distance 3
+considering point (8, 9) to (10, 10)
+  is closest to this point, distance 3
+considering point (8, 9) to (6, 10)
+  is closest to this point, distance 3
+considering point (8, 9) to (9, 9)
+  already claimed!
+considering point (8, 9) to (8, 10)
+  already claimed!
+considering point (8, 9) to (8, 8)
+  already claimed!
+considering point (8, 9) to (9, 11)
+  is closest to this point, distance 3
+considering point (8, 9) to (8, 6)
+  equidistant with (8, 3)
+considering point (8, 9) to (9, 7)
+  is closest to this point, distance 3
+updating queue of (1, 1) with {(0, 0), (1, 3), (-2, 0), (-1, -1), (-2, 2), (2, -2), (-3, 1), (0, -2), (4, 2), (5, 1), (1, -1), (4, 0), (-1, 1), (-1, 3), (3, 1), (3, -1), (2, 0), (0, 4), (1, -3), (0, 2)}
+updating queue of (3, 4) with {(3, 2), (4, 1), (4, 3), (5, 2)}
+updating queue of (5, 5) with {(5, 9), (5, 1), (8, 6), (4, 6), (6, 8), (4, 8), (6, 6), (5, 7), (7, 7), (7, 5), (6, 2), (4, 2), (3, 7), (5, 3)}
+updating queue of (8, 9) with {(6, 9), (8, 13), (10, 11), (7, 12), (6, 11), (8, 11), (9, 8), (9, 10), (8, 7), (12, 9), (9, 6), (5, 8), (11, 10), (4, 9), (5, 10), (6, 7), (11, 8), (10, 7), (7, 6), (9, 12), (7, 10), (7, 8), (10, 9)}
+changed minus unbounded {(3, 4), (5, 5)}
+Iteration 4
+considering point (1, 1) to (0, 0)
+  already claimed!
+considering point (1, 1) to (1, 3)
+  already claimed!
+considering point (1, 1) to (-2, 0)
+  is closest to this point, distance 4
+considering point (1, 1) to (-1, -1)
+  is closest to this point, distance 4
+considering point (1, 1) to (-2, 2)
+  is closest to this point, distance 4
+considering point (1, 1) to (2, -2)
+  is closest to this point, distance 4
+considering point (1, 1) to (-3, 1)
+  is closest to this point, distance 4
+considering point (1, 1) to (0, -2)
+  is closest to this point, distance 4
+considering point (1, 1) to (4, 2)
+  already claimed!
+considering point (1, 1) to (5, 1)
+  is closest to this point, distance 4
+considering point (1, 1) to (1, -1)
+  already claimed!
+considering point (1, 1) to (4, 0)
+  is closest to this point, distance 4
+considering point (1, 1) to (-1, 1)
+  already claimed!
+considering point (1, 1) to (-1, 3)
+  is closest to this point, distance 4
+considering point (1, 1) to (3, 1)
+  already claimed!
+considering point (1, 1) to (3, -1)
+  is closest to this point, distance 4
+considering point (1, 1) to (2, 0)
+  already claimed!
+considering point (1, 1) to (0, 4)
+  is closest to this point, distance 4
+considering point (1, 1) to (1, -3)
+  is closest to this point, distance 4
+considering point (1, 1) to (0, 2)
+  already claimed!
+considering point (3, 4) to (3, 2)
+  already claimed!
+considering point (3, 4) to (4, 1)
+  already claimed!
+considering point (3, 4) to (4, 3)
+  already claimed!
+considering point (3, 4) to (5, 2)
+  already claimed!
+considering point (5, 5) to (5, 9)
+  already claimed!
+considering point (5, 5) to (5, 1)
+  equidistant with (1, 1)
+considering point (5, 5) to (8, 6)
+  already claimed!
+considering point (5, 5) to (4, 6)
+  already claimed!
+considering point (5, 5) to (6, 8)
+  already claimed!
+considering point (5, 5) to (4, 8)
+  is closest to this point, distance 4
+considering point (5, 5) to (6, 6)
+  already claimed!
+considering point (5, 5) to (5, 7)
+  already claimed!
+considering point (5, 5) to (7, 7)
+  already claimed!
+considering point (5, 5) to (7, 5)
+  already claimed!
+considering point (5, 5) to (6, 2)
+  already claimed!
+considering point (5, 5) to (4, 2)
+  already claimed!
+considering point (5, 5) to (3, 7)
+  is closest to this point, distance 4
+considering point (5, 5) to (5, 3)
+  already claimed!
+considering point (8, 9) to (6, 9)
+  already claimed!
+considering point (8, 9) to (8, 13)
+  is closest to this point, distance 4
+considering point (8, 9) to (10, 11)
+  is closest to this point, distance 4
+considering point (8, 9) to (7, 12)
+  is closest to this point, distance 4
+considering point (8, 9) to (6, 11)
+  is closest to this point, distance 4
+considering point (8, 9) to (8, 11)
+  already claimed!
+considering point (8, 9) to (9, 8)
+  already claimed!
+considering point (8, 9) to (9, 10)
+  already claimed!
+considering point (8, 9) to (8, 7)
+  already claimed!
+considering point (8, 9) to (12, 9)
+  is closest to this point, distance 4
+considering point (8, 9) to (9, 6)
+  is closest to this point, distance 4
+considering point (8, 9) to (5, 8)
+  already claimed!
+considering point (8, 9) to (11, 10)
+  is closest to this point, distance 4
+considering point (8, 9) to (4, 9)
+  is closest to this point, distance 4
+considering point (8, 9) to (5, 10)
+  is closest to this point, distance 4
+considering point (8, 9) to (6, 7)
+  already claimed!
+considering point (8, 9) to (11, 8)
+  is closest to this point, distance 4
+considering point (8, 9) to (10, 7)
+  is closest to this point, distance 4
+considering point (8, 9) to (7, 6)
+  already claimed!
+considering point (8, 9) to (9, 12)
+  is closest to this point, distance 4
+considering point (8, 9) to (7, 10)
+  already claimed!
+considering point (8, 9) to (7, 8)
+  already claimed!
+considering point (8, 9) to (10, 9)
+  already claimed!
+updating queue of (5, 5) with {(2, 7), (4, 7), (4, 9), (3, 8), (3, 6), (5, 8)}
+updating queue of (8, 9) with {(4, 10), (5, 9), (8, 6), (11, 11), (5, 11), (4, 8), (11, 9), (10, 6), (9, 5), (3, 9), (6, 12), (7, 11), (8, 14), (9, 13), (9, 7), (11, 7), (10, 8), (8, 12), (10, 10), (7, 13), (6, 10), (10, 12), (9, 11), (13, 9), (12, 10), (12, 8)}
+changed minus unbounded {(5, 5)}
+Iteration 5
+considering point (5, 5) to (2, 7)
+  already claimed!
+considering point (5, 5) to (4, 7)
+  already claimed!
+considering point (5, 5) to (4, 9)
+  already claimed!
+considering point (5, 5) to (3, 8)
+  is closest to this point, distance 5
+considering point (5, 5) to (3, 6)
+  already claimed!
+considering point (5, 5) to (5, 8)
+  already claimed!
+considering point (8, 9) to (4, 10)
+  is closest to this point, distance 5
+considering point (8, 9) to (5, 9)
+  already claimed!
+considering point (8, 9) to (8, 6)
+  already claimed!
+considering point (8, 9) to (11, 11)
+  is closest to this point, distance 5
+considering point (8, 9) to (5, 11)
+  is closest to this point, distance 5
+considering point (8, 9) to (4, 8)
+  already claimed!
+considering point (8, 9) to (11, 9)
+  already claimed!
+considering point (8, 9) to (10, 6)
+  is closest to this point, distance 5
+considering point (8, 9) to (9, 5)
+  already claimed!
+considering point (8, 9) to (3, 9)
+  is closest to this point, distance 5
+considering point (8, 9) to (6, 12)
+  is closest to this point, distance 5
+considering point (8, 9) to (7, 11)
+  already claimed!
+considering point (8, 9) to (8, 14)
+  is closest to this point, distance 5
+considering point (8, 9) to (9, 13)
+  is closest to this point, distance 5
+considering point (8, 9) to (9, 7)
+  already claimed!
+considering point (8, 9) to (11, 7)
+  is closest to this point, distance 5
+considering point (8, 9) to (10, 8)
+  already claimed!
+considering point (8, 9) to (8, 12)
+  already claimed!
+considering point (8, 9) to (10, 10)
+  already claimed!
+considering point (8, 9) to (7, 13)
+  is closest to this point, distance 5
+considering point (8, 9) to (6, 10)
+  already claimed!
+considering point (8, 9) to (10, 12)
+  is closest to this point, distance 5
+considering point (8, 9) to (9, 11)
+  already claimed!
+considering point (8, 9) to (13, 9)
+  is closest to this point, distance 5
+considering point (8, 9) to (12, 10)
+  is closest to this point, distance 5
+considering point (8, 9) to (12, 8)
+  is closest to this point, distance 5
+updating queue of (5, 5) with {(3, 7), (3, 9), (2, 8), (4, 8)}
+updating queue of (8, 9) with {(7, 14), (10, 11), (8, 13), (9, 14), (6, 11), (7, 12), (10, 13), (12, 7), (12, 11), (13, 8), (14, 9), (9, 6), (11, 12), (4, 11), (13, 10), (12, 9), (11, 10), (10, 5), (5, 10), (4, 9), (2, 9), (10, 7), (8, 15), (3, 10), (5, 12), (11, 8), (3, 8), (9, 12), (6, 13), (11, 6)}
+changed minus unbounded {(5, 5)}
+Iteration 6
+considering point (5, 5) to (3, 7)
+  already claimed!
+considering point (5, 5) to (3, 9)
+  already claimed!
+considering point (5, 5) to (2, 8)
+  is closest to this point, distance 6
+considering point (5, 5) to (4, 8)
+  already claimed!
+considering point (8, 9) to (7, 14)
+  is closest to this point, distance 6
+considering point (8, 9) to (10, 11)
+  already claimed!
+considering point (8, 9) to (8, 13)
+  already claimed!
+considering point (8, 9) to (9, 14)
+  is closest to this point, distance 6
+considering point (8, 9) to (6, 11)
+  already claimed!
+considering point (8, 9) to (7, 12)
+  already claimed!
+considering point (8, 9) to (10, 13)
+  is closest to this point, distance 6
+considering point (8, 9) to (12, 7)
+  is closest to this point, distance 6
+considering point (8, 9) to (12, 11)
+  is closest to this point, distance 6
+considering point (8, 9) to (13, 8)
+  is closest to this point, distance 6
+considering point (8, 9) to (14, 9)
+  is closest to this point, distance 6
+considering point (8, 9) to (9, 6)
+  already claimed!
+considering point (8, 9) to (11, 12)
+  is closest to this point, distance 6
+considering point (8, 9) to (4, 11)
+  is closest to this point, distance 6
+considering point (8, 9) to (13, 10)
+  is closest to this point, distance 6
+considering point (8, 9) to (12, 9)
+  already claimed!
+considering point (8, 9) to (11, 10)
+  already claimed!
+considering point (8, 9) to (10, 5)
+  is closest to this point, distance 6
+considering point (8, 9) to (5, 10)
+  already claimed!
+considering point (8, 9) to (4, 9)
+  already claimed!
+considering point (8, 9) to (2, 9)
+  is closest to this point, distance 6
+considering point (8, 9) to (10, 7)
+  already claimed!
+considering point (8, 9) to (8, 15)
+  is closest to this point, distance 6
+considering point (8, 9) to (3, 10)
+  is closest to this point, distance 6
+considering point (8, 9) to (5, 12)
+  is closest to this point, distance 6
+considering point (8, 9) to (11, 8)
+  already claimed!
+considering point (8, 9) to (3, 8)
+  already claimed!
+considering point (8, 9) to (9, 12)
+  already claimed!
+considering point (8, 9) to (6, 13)
+  is closest to this point, distance 6
+considering point (8, 9) to (11, 6)
+  is closest to this point, distance 6
+updating queue of (5, 5) with {(2, 7), (1, 8), (2, 9), (3, 8)}
+updating queue of (8, 9) with {(11, 11), (2, 8), (12, 12), (10, 6), (3, 11), (5, 13), (4, 12), (6, 14), (8, 14), (7, 15), (9, 15), (11, 5), (10, 12), (12, 6), (13, 7), (12, 10), (8, 16), (11, 13), (13, 11), (4, 10), (14, 10), (10, 4), (5, 11), (2, 10), (3, 9), (1, 9), (6, 12), (9, 13), (11, 7), (7, 13), (10, 14), (13, 9), (15, 9), (9, 5), (14, 8), (12, 8)}
+changed minus unbounded {(5, 5)}
+Iteration 7
+considering point (5, 5) to (2, 7)
+  already claimed!
+considering point (5, 5) to (1, 8)
+  already claimed!
+considering point (5, 5) to (2, 9)
+  already claimed!
+considering point (5, 5) to (3, 8)
+  already claimed!
+considering point (8, 9) to (11, 11)
+  already claimed!
+considering point (8, 9) to (2, 8)
+  already claimed!
+considering point (8, 9) to (12, 12)
+  is closest to this point, distance 7
+considering point (8, 9) to (10, 6)
+  already claimed!
+considering point (8, 9) to (3, 11)
+  is closest to this point, distance 7
+considering point (8, 9) to (5, 13)
+  is closest to this point, distance 7
+considering point (8, 9) to (4, 12)
+  is closest to this point, distance 7
+considering point (8, 9) to (6, 14)
+  is closest to this point, distance 7
+considering point (8, 9) to (8, 14)
+  already claimed!
+considering point (8, 9) to (7, 15)
+  is closest to this point, distance 7
+considering point (8, 9) to (9, 15)
+  is closest to this point, distance 7
+considering point (8, 9) to (11, 5)
+  is closest to this point, distance 7
+considering point (8, 9) to (10, 12)
+  already claimed!
+considering point (8, 9) to (12, 6)
+  is closest to this point, distance 7
+considering point (8, 9) to (13, 7)
+  is closest to this point, distance 7
+considering point (8, 9) to (12, 10)
+  already claimed!
+considering point (8, 9) to (8, 16)
+  is closest to this point, distance 7
+considering point (8, 9) to (11, 13)
+  is closest to this point, distance 7
+considering point (8, 9) to (13, 11)
+  is closest to this point, distance 7
+considering point (8, 9) to (4, 10)
+  already claimed!
+considering point (8, 9) to (14, 10)
+  is closest to this point, distance 7
+considering point (8, 9) to (10, 4)
+  already claimed!
+considering point (8, 9) to (5, 11)
+  already claimed!
+considering point (8, 9) to (2, 10)
+  is closest to this point, distance 7
+considering point (8, 9) to (3, 9)
+  already claimed!
+considering point (8, 9) to (1, 9)
+  is closest to this point, distance 7
+considering point (8, 9) to (6, 12)
+  already claimed!
+considering point (8, 9) to (9, 13)
+  already claimed!
+considering point (8, 9) to (11, 7)
+  already claimed!
+considering point (8, 9) to (7, 13)
+  already claimed!
+considering point (8, 9) to (10, 14)
+  is closest to this point, distance 7
+considering point (8, 9) to (13, 9)
+  already claimed!
+considering point (8, 9) to (15, 9)
+  is closest to this point, distance 7
+considering point (8, 9) to (9, 5)
+  already claimed!
+considering point (8, 9) to (14, 8)
+  is closest to this point, distance 7
+considering point (8, 9) to (12, 8)
+  already claimed!
+updating queue of (8, 9) with {(16, 9), (10, 15), (12, 5), (7, 16), (15, 8), (13, 8), (11, 14), (14, 9), (13, 12), (2, 9), (12, 13), (3, 10), (5, 12), (4, 13), (1, 10), (6, 15), (8, 15), (7, 14), (9, 14), (11, 4), (12, 7), (10, 13), (15, 10), (13, 6), (9, 16), (12, 11), (8, 17), (11, 12), (13, 10), (4, 11), (14, 11), (10, 5), (3, 12), (2, 11), (14, 7), (5, 14), (1, 8), (6, 13), (0, 9), (11, 6)}
+only unbounded points were moved. finished.
+computing
+((5, 5), 20)
+[(5, 5), (5, 6), (5, 4), (4, 5), (6, 5), (6, 4), (4, 6), (6, 6), (5, 7), (7, 5), (5, 3), (4, 7), (6, 7), (5, 8), (7, 6), (5, 2), (4, 8), (3, 7), (3, 8), (2, 8)]
+[(1, 6), (1, 5), (2, 6), (0, 6), (1, 7), (2, 7), (0, 7), (1, 8), (0, 5), (-1, 6)]
+None
