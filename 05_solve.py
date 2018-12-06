@@ -1,16 +1,15 @@
 from collections import defaultdict
 
-# this is horrendously inefficient. part 2 took almost 20 minutes to compute
 def go(line):
-    changed = True
-    while changed:
-        changed = False 
-        for i in range(len(line)-1):
-            if line[i].lower() == line[i+1].lower() and line[i] != line[i+1]:
-                line = line[:i] + line[i+2:]
-                changed = True
-                break
-    return line
+    queue = []
+    for c in line:
+        # if there is a previous letter and it is case-insensitive equal to c
+        # but not c, then we react.
+        if queue and queue[-1].upper() == c.upper() and queue[-1] != c:
+            del queue[-1]
+        else:
+            queue.append(c)
+    return ''.join(queue)
 
 def solve_1(input_lines):
     for line in input_lines:
@@ -36,4 +35,6 @@ def solve_2(input_lines):
 if __name__ == "__main__":
     # print(go("dBaAbc"))
     with open('05_input.txt') as f:
-        print(solve_2(list(f)))
+        lines = list(f)
+        print(solve_1(lines))
+        print(solve_2(lines))
