@@ -1,0 +1,2554 @@
+starting
+0 seconds have passed.
+deque(['S'])
+worker 0 assigned ['S', 79]
+1 seconds have passed.
+deque([])
+2 seconds have passed.
+deque([])
+3 seconds have passed.
+deque([])
+4 seconds have passed.
+deque([])
+5 seconds have passed.
+deque([])
+6 seconds have passed.
+deque([])
+7 seconds have passed.
+deque([])
+8 seconds have passed.
+deque([])
+9 seconds have passed.
+deque([])
+10 seconds have passed.
+deque([])
+11 seconds have passed.
+deque([])
+12 seconds have passed.
+deque([])
+13 seconds have passed.
+deque([])
+14 seconds have passed.
+deque([])
+15 seconds have passed.
+deque([])
+16 seconds have passed.
+deque([])
+17 seconds have passed.
+deque([])
+18 seconds have passed.
+deque([])
+19 seconds have passed.
+deque([])
+20 seconds have passed.
+deque([])
+21 seconds have passed.
+deque([])
+22 seconds have passed.
+deque([])
+23 seconds have passed.
+deque([])
+24 seconds have passed.
+deque([])
+25 seconds have passed.
+deque([])
+26 seconds have passed.
+deque([])
+27 seconds have passed.
+deque([])
+28 seconds have passed.
+deque([])
+29 seconds have passed.
+deque([])
+30 seconds have passed.
+deque([])
+31 seconds have passed.
+deque([])
+32 seconds have passed.
+deque([])
+33 seconds have passed.
+deque([])
+34 seconds have passed.
+deque([])
+35 seconds have passed.
+deque([])
+36 seconds have passed.
+deque([])
+37 seconds have passed.
+deque([])
+38 seconds have passed.
+deque([])
+39 seconds have passed.
+deque([])
+40 seconds have passed.
+deque([])
+41 seconds have passed.
+deque([])
+42 seconds have passed.
+deque([])
+43 seconds have passed.
+deque([])
+44 seconds have passed.
+deque([])
+45 seconds have passed.
+deque([])
+46 seconds have passed.
+deque([])
+47 seconds have passed.
+deque([])
+48 seconds have passed.
+deque([])
+49 seconds have passed.
+deque([])
+50 seconds have passed.
+deque([])
+51 seconds have passed.
+deque([])
+52 seconds have passed.
+deque([])
+53 seconds have passed.
+deque([])
+54 seconds have passed.
+deque([])
+55 seconds have passed.
+deque([])
+56 seconds have passed.
+deque([])
+57 seconds have passed.
+deque([])
+58 seconds have passed.
+deque([])
+59 seconds have passed.
+deque([])
+60 seconds have passed.
+deque([])
+61 seconds have passed.
+deque([])
+62 seconds have passed.
+deque([])
+63 seconds have passed.
+deque([])
+64 seconds have passed.
+deque([])
+65 seconds have passed.
+deque([])
+66 seconds have passed.
+deque([])
+67 seconds have passed.
+deque([])
+68 seconds have passed.
+deque([])
+69 seconds have passed.
+deque([])
+70 seconds have passed.
+deque([])
+71 seconds have passed.
+deque([])
+72 seconds have passed.
+deque([])
+73 seconds have passed.
+deque([])
+74 seconds have passed.
+deque([])
+75 seconds have passed.
+deque([])
+76 seconds have passed.
+deque([])
+77 seconds have passed.
+deque([])
+78 seconds have passed.
+deque([])
+79 seconds have passed.
+deque([])
+worker 0 done with ['S', 0]
+[('S', 'C'), ('S', 'D'), ('S', 'Q'), ('S', 'Z'), ('S', 'G')]
+worker 0 assigned ['C', 63]
+80 seconds have passed.
+deque([])
+81 seconds have passed.
+deque([])
+82 seconds have passed.
+deque([])
+83 seconds have passed.
+deque([])
+84 seconds have passed.
+deque([])
+85 seconds have passed.
+deque([])
+86 seconds have passed.
+deque([])
+87 seconds have passed.
+deque([])
+88 seconds have passed.
+deque([])
+89 seconds have passed.
+deque([])
+90 seconds have passed.
+deque([])
+91 seconds have passed.
+deque([])
+92 seconds have passed.
+deque([])
+93 seconds have passed.
+deque([])
+94 seconds have passed.
+deque([])
+95 seconds have passed.
+deque([])
+96 seconds have passed.
+deque([])
+97 seconds have passed.
+deque([])
+98 seconds have passed.
+deque([])
+99 seconds have passed.
+deque([])
+100 seconds have passed.
+deque([])
+101 seconds have passed.
+deque([])
+102 seconds have passed.
+deque([])
+103 seconds have passed.
+deque([])
+104 seconds have passed.
+deque([])
+105 seconds have passed.
+deque([])
+106 seconds have passed.
+deque([])
+107 seconds have passed.
+deque([])
+108 seconds have passed.
+deque([])
+109 seconds have passed.
+deque([])
+110 seconds have passed.
+deque([])
+111 seconds have passed.
+deque([])
+112 seconds have passed.
+deque([])
+113 seconds have passed.
+deque([])
+114 seconds have passed.
+deque([])
+115 seconds have passed.
+deque([])
+116 seconds have passed.
+deque([])
+117 seconds have passed.
+deque([])
+118 seconds have passed.
+deque([])
+119 seconds have passed.
+deque([])
+120 seconds have passed.
+deque([])
+121 seconds have passed.
+deque([])
+122 seconds have passed.
+deque([])
+123 seconds have passed.
+deque([])
+124 seconds have passed.
+deque([])
+125 seconds have passed.
+deque([])
+126 seconds have passed.
+deque([])
+127 seconds have passed.
+deque([])
+128 seconds have passed.
+deque([])
+129 seconds have passed.
+deque([])
+130 seconds have passed.
+deque([])
+131 seconds have passed.
+deque([])
+132 seconds have passed.
+deque([])
+133 seconds have passed.
+deque([])
+134 seconds have passed.
+deque([])
+135 seconds have passed.
+deque([])
+136 seconds have passed.
+deque([])
+137 seconds have passed.
+deque([])
+138 seconds have passed.
+deque([])
+139 seconds have passed.
+deque([])
+140 seconds have passed.
+deque([])
+141 seconds have passed.
+deque([])
+142 seconds have passed.
+deque([])
+worker 0 done with ['C', 0]
+[('C', 'R'), ('C', 'A'), ('C', 'J'), ('C', 'L'), ('C', 'T'), ('C', 'Y'), ('C', 'N'), ('C', 'P')]
+worker 0 assigned ['L', 72]
+worker 1 assigned ['P', 76]
+143 seconds have passed.
+deque([])
+144 seconds have passed.
+deque([])
+145 seconds have passed.
+deque([])
+146 seconds have passed.
+deque([])
+147 seconds have passed.
+deque([])
+148 seconds have passed.
+deque([])
+149 seconds have passed.
+deque([])
+150 seconds have passed.
+deque([])
+151 seconds have passed.
+deque([])
+152 seconds have passed.
+deque([])
+153 seconds have passed.
+deque([])
+154 seconds have passed.
+deque([])
+155 seconds have passed.
+deque([])
+156 seconds have passed.
+deque([])
+157 seconds have passed.
+deque([])
+158 seconds have passed.
+deque([])
+159 seconds have passed.
+deque([])
+160 seconds have passed.
+deque([])
+161 seconds have passed.
+deque([])
+162 seconds have passed.
+deque([])
+163 seconds have passed.
+deque([])
+164 seconds have passed.
+deque([])
+165 seconds have passed.
+deque([])
+166 seconds have passed.
+deque([])
+167 seconds have passed.
+deque([])
+168 seconds have passed.
+deque([])
+169 seconds have passed.
+deque([])
+170 seconds have passed.
+deque([])
+171 seconds have passed.
+deque([])
+172 seconds have passed.
+deque([])
+173 seconds have passed.
+deque([])
+174 seconds have passed.
+deque([])
+175 seconds have passed.
+deque([])
+176 seconds have passed.
+deque([])
+177 seconds have passed.
+deque([])
+178 seconds have passed.
+deque([])
+179 seconds have passed.
+deque([])
+180 seconds have passed.
+deque([])
+181 seconds have passed.
+deque([])
+182 seconds have passed.
+deque([])
+183 seconds have passed.
+deque([])
+184 seconds have passed.
+deque([])
+185 seconds have passed.
+deque([])
+186 seconds have passed.
+deque([])
+187 seconds have passed.
+deque([])
+188 seconds have passed.
+deque([])
+189 seconds have passed.
+deque([])
+190 seconds have passed.
+deque([])
+191 seconds have passed.
+deque([])
+192 seconds have passed.
+deque([])
+193 seconds have passed.
+deque([])
+194 seconds have passed.
+deque([])
+195 seconds have passed.
+deque([])
+196 seconds have passed.
+deque([])
+197 seconds have passed.
+deque([])
+198 seconds have passed.
+deque([])
+199 seconds have passed.
+deque([])
+200 seconds have passed.
+deque([])
+201 seconds have passed.
+deque([])
+202 seconds have passed.
+deque([])
+203 seconds have passed.
+deque([])
+204 seconds have passed.
+deque([])
+205 seconds have passed.
+deque([])
+206 seconds have passed.
+deque([])
+207 seconds have passed.
+deque([])
+208 seconds have passed.
+deque([])
+209 seconds have passed.
+deque([])
+210 seconds have passed.
+deque([])
+211 seconds have passed.
+deque([])
+212 seconds have passed.
+deque([])
+213 seconds have passed.
+deque([])
+214 seconds have passed.
+deque([])
+worker 0 done with ['L', 0]
+[('L', 'W'), ('L', 'Z'), ('L', 'R'), ('L', 'T'), ('L', 'Q'), ('L', 'V')]
+worker 0 assigned ['V', 82]
+worker 2 assigned ['W', 83]
+215 seconds have passed.
+deque([])
+216 seconds have passed.
+deque([])
+217 seconds have passed.
+deque([])
+218 seconds have passed.
+deque([])
+worker 1 done with ['P', 0]
+[('P', 'Y'), ('P', 'Q'), ('P', 'R'), ('P', 'K'), ('P', 'G'), ('P', 'M'), ('P', 'O'), ('P', 'A')]
+worker 1 assigned ['A', 61]
+worker 3 assigned ['M', 73]
+worker 4 assigned ['Q', 77]
+219 seconds have passed.
+deque(['Y'])
+220 seconds have passed.
+deque(['Y'])
+221 seconds have passed.
+deque(['Y'])
+222 seconds have passed.
+deque(['Y'])
+223 seconds have passed.
+deque(['Y'])
+224 seconds have passed.
+deque(['Y'])
+225 seconds have passed.
+deque(['Y'])
+226 seconds have passed.
+deque(['Y'])
+227 seconds have passed.
+deque(['Y'])
+228 seconds have passed.
+deque(['Y'])
+229 seconds have passed.
+deque(['Y'])
+230 seconds have passed.
+deque(['Y'])
+231 seconds have passed.
+deque(['Y'])
+232 seconds have passed.
+deque(['Y'])
+233 seconds have passed.
+deque(['Y'])
+234 seconds have passed.
+deque(['Y'])
+235 seconds have passed.
+deque(['Y'])
+236 seconds have passed.
+deque(['Y'])
+237 seconds have passed.
+deque(['Y'])
+238 seconds have passed.
+deque(['Y'])
+239 seconds have passed.
+deque(['Y'])
+240 seconds have passed.
+deque(['Y'])
+241 seconds have passed.
+deque(['Y'])
+242 seconds have passed.
+deque(['Y'])
+243 seconds have passed.
+deque(['Y'])
+244 seconds have passed.
+deque(['Y'])
+245 seconds have passed.
+deque(['Y'])
+246 seconds have passed.
+deque(['Y'])
+247 seconds have passed.
+deque(['Y'])
+248 seconds have passed.
+deque(['Y'])
+249 seconds have passed.
+deque(['Y'])
+250 seconds have passed.
+deque(['Y'])
+251 seconds have passed.
+deque(['Y'])
+252 seconds have passed.
+deque(['Y'])
+253 seconds have passed.
+deque(['Y'])
+254 seconds have passed.
+deque(['Y'])
+255 seconds have passed.
+deque(['Y'])
+256 seconds have passed.
+deque(['Y'])
+257 seconds have passed.
+deque(['Y'])
+258 seconds have passed.
+deque(['Y'])
+259 seconds have passed.
+deque(['Y'])
+260 seconds have passed.
+deque(['Y'])
+261 seconds have passed.
+deque(['Y'])
+262 seconds have passed.
+deque(['Y'])
+263 seconds have passed.
+deque(['Y'])
+264 seconds have passed.
+deque(['Y'])
+265 seconds have passed.
+deque(['Y'])
+266 seconds have passed.
+deque(['Y'])
+267 seconds have passed.
+deque(['Y'])
+268 seconds have passed.
+deque(['Y'])
+269 seconds have passed.
+deque(['Y'])
+270 seconds have passed.
+deque(['Y'])
+271 seconds have passed.
+deque(['Y'])
+272 seconds have passed.
+deque(['Y'])
+273 seconds have passed.
+deque(['Y'])
+274 seconds have passed.
+deque(['Y'])
+275 seconds have passed.
+deque(['Y'])
+276 seconds have passed.
+deque(['Y'])
+277 seconds have passed.
+deque(['Y'])
+278 seconds have passed.
+deque(['Y'])
+279 seconds have passed.
+deque(['Y'])
+worker 1 done with ['A', 0]
+[('A', 'D'), ('A', 'B'), ('A', 'G'), ('A', 'I')]
+worker 1 assigned ['Y', 85]
+280 seconds have passed.
+deque([])
+281 seconds have passed.
+deque([])
+282 seconds have passed.
+deque([])
+283 seconds have passed.
+deque([])
+284 seconds have passed.
+deque([])
+285 seconds have passed.
+deque([])
+286 seconds have passed.
+deque([])
+287 seconds have passed.
+deque([])
+288 seconds have passed.
+deque([])
+289 seconds have passed.
+deque([])
+290 seconds have passed.
+deque([])
+291 seconds have passed.
+deque([])
+worker 3 done with ['M', 0]
+[('M', 'B'), ('M', 'D'), ('M', 'H'), ('M', 'E'), ('M', 'R'), ('M', 'U')]
+292 seconds have passed.
+deque([])
+293 seconds have passed.
+deque([])
+294 seconds have passed.
+deque([])
+295 seconds have passed.
+deque([])
+worker 4 done with ['Q', 0]
+[('Q', 'X'), ('Q', 'F'), ('Q', 'T'), ('Q', 'U')]
+296 seconds have passed.
+deque([])
+worker 0 done with ['V', 0]
+[('V', 'B'), ('V', 'U'), ('V', 'J'), ('V', 'H')]
+worker 0 assigned ['U', 81]
+297 seconds have passed.
+deque([])
+worker 2 done with ['W', 0]
+[('W', 'T'), ('W', 'B'), ('W', 'R'), ('W', 'N'), ('W', 'J')]
+worker 2 assigned ['N', 74]
+298 seconds have passed.
+deque([])
+299 seconds have passed.
+deque([])
+300 seconds have passed.
+deque([])
+301 seconds have passed.
+deque([])
+302 seconds have passed.
+deque([])
+303 seconds have passed.
+deque([])
+304 seconds have passed.
+deque([])
+305 seconds have passed.
+deque([])
+306 seconds have passed.
+deque([])
+307 seconds have passed.
+deque([])
+308 seconds have passed.
+deque([])
+309 seconds have passed.
+deque([])
+310 seconds have passed.
+deque([])
+311 seconds have passed.
+deque([])
+312 seconds have passed.
+deque([])
+313 seconds have passed.
+deque([])
+314 seconds have passed.
+deque([])
+315 seconds have passed.
+deque([])
+316 seconds have passed.
+deque([])
+317 seconds have passed.
+deque([])
+318 seconds have passed.
+deque([])
+319 seconds have passed.
+deque([])
+320 seconds have passed.
+deque([])
+321 seconds have passed.
+deque([])
+322 seconds have passed.
+deque([])
+323 seconds have passed.
+deque([])
+324 seconds have passed.
+deque([])
+325 seconds have passed.
+deque([])
+326 seconds have passed.
+deque([])
+327 seconds have passed.
+deque([])
+328 seconds have passed.
+deque([])
+329 seconds have passed.
+deque([])
+330 seconds have passed.
+deque([])
+331 seconds have passed.
+deque([])
+332 seconds have passed.
+deque([])
+333 seconds have passed.
+deque([])
+334 seconds have passed.
+deque([])
+335 seconds have passed.
+deque([])
+336 seconds have passed.
+deque([])
+337 seconds have passed.
+deque([])
+338 seconds have passed.
+deque([])
+339 seconds have passed.
+deque([])
+340 seconds have passed.
+deque([])
+341 seconds have passed.
+deque([])
+342 seconds have passed.
+deque([])
+343 seconds have passed.
+deque([])
+344 seconds have passed.
+deque([])
+345 seconds have passed.
+deque([])
+346 seconds have passed.
+deque([])
+347 seconds have passed.
+deque([])
+348 seconds have passed.
+deque([])
+349 seconds have passed.
+deque([])
+350 seconds have passed.
+deque([])
+351 seconds have passed.
+deque([])
+352 seconds have passed.
+deque([])
+353 seconds have passed.
+deque([])
+354 seconds have passed.
+deque([])
+355 seconds have passed.
+deque([])
+356 seconds have passed.
+deque([])
+357 seconds have passed.
+deque([])
+358 seconds have passed.
+deque([])
+359 seconds have passed.
+deque([])
+360 seconds have passed.
+deque([])
+361 seconds have passed.
+deque([])
+362 seconds have passed.
+deque([])
+363 seconds have passed.
+deque([])
+364 seconds have passed.
+deque([])
+worker 1 done with ['Y', 0]
+[('Y', 'J'), ('Y', 'K'), ('Y', 'I')]
+365 seconds have passed.
+deque([])
+366 seconds have passed.
+deque([])
+367 seconds have passed.
+deque([])
+368 seconds have passed.
+deque([])
+369 seconds have passed.
+deque([])
+370 seconds have passed.
+deque([])
+371 seconds have passed.
+deque([])
+worker 2 done with ['N', 0]
+[('N', 'I'), ('N', 'O'), ('N', 'G'), ('N', 'J'), ('N', 'B'), ('N', 'H')]
+worker 2 assigned ['H', 68]
+372 seconds have passed.
+deque([])
+373 seconds have passed.
+deque([])
+374 seconds have passed.
+deque([])
+375 seconds have passed.
+deque([])
+376 seconds have passed.
+deque([])
+377 seconds have passed.
+deque([])
+worker 0 done with ['U', 0]
+[('U', 'B'), ('U', 'E'), ('U', 'J')]
+378 seconds have passed.
+deque([])
+379 seconds have passed.
+deque([])
+380 seconds have passed.
+deque([])
+381 seconds have passed.
+deque([])
+382 seconds have passed.
+deque([])
+383 seconds have passed.
+deque([])
+384 seconds have passed.
+deque([])
+385 seconds have passed.
+deque([])
+386 seconds have passed.
+deque([])
+387 seconds have passed.
+deque([])
+388 seconds have passed.
+deque([])
+389 seconds have passed.
+deque([])
+390 seconds have passed.
+deque([])
+391 seconds have passed.
+deque([])
+392 seconds have passed.
+deque([])
+393 seconds have passed.
+deque([])
+394 seconds have passed.
+deque([])
+395 seconds have passed.
+deque([])
+396 seconds have passed.
+deque([])
+397 seconds have passed.
+deque([])
+398 seconds have passed.
+deque([])
+399 seconds have passed.
+deque([])
+400 seconds have passed.
+deque([])
+401 seconds have passed.
+deque([])
+402 seconds have passed.
+deque([])
+403 seconds have passed.
+deque([])
+404 seconds have passed.
+deque([])
+405 seconds have passed.
+deque([])
+406 seconds have passed.
+deque([])
+407 seconds have passed.
+deque([])
+408 seconds have passed.
+deque([])
+409 seconds have passed.
+deque([])
+410 seconds have passed.
+deque([])
+411 seconds have passed.
+deque([])
+412 seconds have passed.
+deque([])
+413 seconds have passed.
+deque([])
+414 seconds have passed.
+deque([])
+415 seconds have passed.
+deque([])
+416 seconds have passed.
+deque([])
+417 seconds have passed.
+deque([])
+418 seconds have passed.
+deque([])
+419 seconds have passed.
+deque([])
+420 seconds have passed.
+deque([])
+421 seconds have passed.
+deque([])
+422 seconds have passed.
+deque([])
+423 seconds have passed.
+deque([])
+424 seconds have passed.
+deque([])
+425 seconds have passed.
+deque([])
+426 seconds have passed.
+deque([])
+427 seconds have passed.
+deque([])
+428 seconds have passed.
+deque([])
+429 seconds have passed.
+deque([])
+430 seconds have passed.
+deque([])
+431 seconds have passed.
+deque([])
+432 seconds have passed.
+deque([])
+433 seconds have passed.
+deque([])
+434 seconds have passed.
+deque([])
+435 seconds have passed.
+deque([])
+436 seconds have passed.
+deque([])
+437 seconds have passed.
+deque([])
+438 seconds have passed.
+deque([])
+439 seconds have passed.
+deque([])
+worker 2 done with ['H', 0]
+[('H', 'O'), ('H', 'D'), ('H', 'Z')]
+worker 2 assigned ['O', 75]
+440 seconds have passed.
+deque([])
+441 seconds have passed.
+deque([])
+442 seconds have passed.
+deque([])
+443 seconds have passed.
+deque([])
+444 seconds have passed.
+deque([])
+445 seconds have passed.
+deque([])
+446 seconds have passed.
+deque([])
+447 seconds have passed.
+deque([])
+448 seconds have passed.
+deque([])
+449 seconds have passed.
+deque([])
+450 seconds have passed.
+deque([])
+451 seconds have passed.
+deque([])
+452 seconds have passed.
+deque([])
+453 seconds have passed.
+deque([])
+454 seconds have passed.
+deque([])
+455 seconds have passed.
+deque([])
+456 seconds have passed.
+deque([])
+457 seconds have passed.
+deque([])
+458 seconds have passed.
+deque([])
+459 seconds have passed.
+deque([])
+460 seconds have passed.
+deque([])
+461 seconds have passed.
+deque([])
+462 seconds have passed.
+deque([])
+463 seconds have passed.
+deque([])
+464 seconds have passed.
+deque([])
+465 seconds have passed.
+deque([])
+466 seconds have passed.
+deque([])
+467 seconds have passed.
+deque([])
+468 seconds have passed.
+deque([])
+469 seconds have passed.
+deque([])
+470 seconds have passed.
+deque([])
+471 seconds have passed.
+deque([])
+472 seconds have passed.
+deque([])
+473 seconds have passed.
+deque([])
+474 seconds have passed.
+deque([])
+475 seconds have passed.
+deque([])
+476 seconds have passed.
+deque([])
+477 seconds have passed.
+deque([])
+478 seconds have passed.
+deque([])
+479 seconds have passed.
+deque([])
+480 seconds have passed.
+deque([])
+481 seconds have passed.
+deque([])
+482 seconds have passed.
+deque([])
+483 seconds have passed.
+deque([])
+484 seconds have passed.
+deque([])
+485 seconds have passed.
+deque([])
+486 seconds have passed.
+deque([])
+487 seconds have passed.
+deque([])
+488 seconds have passed.
+deque([])
+489 seconds have passed.
+deque([])
+490 seconds have passed.
+deque([])
+491 seconds have passed.
+deque([])
+492 seconds have passed.
+deque([])
+493 seconds have passed.
+deque([])
+494 seconds have passed.
+deque([])
+495 seconds have passed.
+deque([])
+496 seconds have passed.
+deque([])
+497 seconds have passed.
+deque([])
+498 seconds have passed.
+deque([])
+499 seconds have passed.
+deque([])
+500 seconds have passed.
+deque([])
+501 seconds have passed.
+deque([])
+502 seconds have passed.
+deque([])
+503 seconds have passed.
+deque([])
+504 seconds have passed.
+deque([])
+505 seconds have passed.
+deque([])
+506 seconds have passed.
+deque([])
+507 seconds have passed.
+deque([])
+508 seconds have passed.
+deque([])
+509 seconds have passed.
+deque([])
+510 seconds have passed.
+deque([])
+511 seconds have passed.
+deque([])
+512 seconds have passed.
+deque([])
+513 seconds have passed.
+deque([])
+514 seconds have passed.
+deque([])
+worker 2 done with ['O', 0]
+[('O', 'T'), ('O', 'D'), ('O', 'E'), ('O', 'I')]
+worker 2 assigned ['D', 64]
+worker 3 assigned ['T', 80]
+515 seconds have passed.
+deque([])
+516 seconds have passed.
+deque([])
+517 seconds have passed.
+deque([])
+518 seconds have passed.
+deque([])
+519 seconds have passed.
+deque([])
+520 seconds have passed.
+deque([])
+521 seconds have passed.
+deque([])
+522 seconds have passed.
+deque([])
+523 seconds have passed.
+deque([])
+524 seconds have passed.
+deque([])
+525 seconds have passed.
+deque([])
+526 seconds have passed.
+deque([])
+527 seconds have passed.
+deque([])
+528 seconds have passed.
+deque([])
+529 seconds have passed.
+deque([])
+530 seconds have passed.
+deque([])
+531 seconds have passed.
+deque([])
+532 seconds have passed.
+deque([])
+533 seconds have passed.
+deque([])
+534 seconds have passed.
+deque([])
+535 seconds have passed.
+deque([])
+536 seconds have passed.
+deque([])
+537 seconds have passed.
+deque([])
+538 seconds have passed.
+deque([])
+539 seconds have passed.
+deque([])
+540 seconds have passed.
+deque([])
+541 seconds have passed.
+deque([])
+542 seconds have passed.
+deque([])
+543 seconds have passed.
+deque([])
+544 seconds have passed.
+deque([])
+545 seconds have passed.
+deque([])
+546 seconds have passed.
+deque([])
+547 seconds have passed.
+deque([])
+548 seconds have passed.
+deque([])
+549 seconds have passed.
+deque([])
+550 seconds have passed.
+deque([])
+551 seconds have passed.
+deque([])
+552 seconds have passed.
+deque([])
+553 seconds have passed.
+deque([])
+554 seconds have passed.
+deque([])
+555 seconds have passed.
+deque([])
+556 seconds have passed.
+deque([])
+557 seconds have passed.
+deque([])
+558 seconds have passed.
+deque([])
+559 seconds have passed.
+deque([])
+560 seconds have passed.
+deque([])
+561 seconds have passed.
+deque([])
+562 seconds have passed.
+deque([])
+563 seconds have passed.
+deque([])
+564 seconds have passed.
+deque([])
+565 seconds have passed.
+deque([])
+566 seconds have passed.
+deque([])
+567 seconds have passed.
+deque([])
+568 seconds have passed.
+deque([])
+569 seconds have passed.
+deque([])
+570 seconds have passed.
+deque([])
+571 seconds have passed.
+deque([])
+572 seconds have passed.
+deque([])
+573 seconds have passed.
+deque([])
+574 seconds have passed.
+deque([])
+575 seconds have passed.
+deque([])
+576 seconds have passed.
+deque([])
+577 seconds have passed.
+deque([])
+578 seconds have passed.
+deque([])
+worker 2 done with ['D', 0]
+[('D', 'X'), ('D', 'F'), ('D', 'R')]
+worker 2 assigned ['R', 78]
+579 seconds have passed.
+deque([])
+580 seconds have passed.
+deque([])
+581 seconds have passed.
+deque([])
+582 seconds have passed.
+deque([])
+583 seconds have passed.
+deque([])
+584 seconds have passed.
+deque([])
+585 seconds have passed.
+deque([])
+586 seconds have passed.
+deque([])
+587 seconds have passed.
+deque([])
+588 seconds have passed.
+deque([])
+589 seconds have passed.
+deque([])
+590 seconds have passed.
+deque([])
+591 seconds have passed.
+deque([])
+592 seconds have passed.
+deque([])
+593 seconds have passed.
+deque([])
+594 seconds have passed.
+deque([])
+worker 3 done with ['T', 0]
+[('T', 'K'), ('T', 'F'), ('T', 'G')]
+worker 3 assigned ['G', 67]
+595 seconds have passed.
+deque([])
+596 seconds have passed.
+deque([])
+597 seconds have passed.
+deque([])
+598 seconds have passed.
+deque([])
+599 seconds have passed.
+deque([])
+600 seconds have passed.
+deque([])
+601 seconds have passed.
+deque([])
+602 seconds have passed.
+deque([])
+603 seconds have passed.
+deque([])
+604 seconds have passed.
+deque([])
+605 seconds have passed.
+deque([])
+606 seconds have passed.
+deque([])
+607 seconds have passed.
+deque([])
+608 seconds have passed.
+deque([])
+609 seconds have passed.
+deque([])
+610 seconds have passed.
+deque([])
+611 seconds have passed.
+deque([])
+612 seconds have passed.
+deque([])
+613 seconds have passed.
+deque([])
+614 seconds have passed.
+deque([])
+615 seconds have passed.
+deque([])
+616 seconds have passed.
+deque([])
+617 seconds have passed.
+deque([])
+618 seconds have passed.
+deque([])
+619 seconds have passed.
+deque([])
+620 seconds have passed.
+deque([])
+621 seconds have passed.
+deque([])
+622 seconds have passed.
+deque([])
+623 seconds have passed.
+deque([])
+624 seconds have passed.
+deque([])
+625 seconds have passed.
+deque([])
+626 seconds have passed.
+deque([])
+627 seconds have passed.
+deque([])
+628 seconds have passed.
+deque([])
+629 seconds have passed.
+deque([])
+630 seconds have passed.
+deque([])
+631 seconds have passed.
+deque([])
+632 seconds have passed.
+deque([])
+633 seconds have passed.
+deque([])
+634 seconds have passed.
+deque([])
+635 seconds have passed.
+deque([])
+636 seconds have passed.
+deque([])
+637 seconds have passed.
+deque([])
+638 seconds have passed.
+deque([])
+639 seconds have passed.
+deque([])
+640 seconds have passed.
+deque([])
+641 seconds have passed.
+deque([])
+642 seconds have passed.
+deque([])
+643 seconds have passed.
+deque([])
+644 seconds have passed.
+deque([])
+645 seconds have passed.
+deque([])
+646 seconds have passed.
+deque([])
+647 seconds have passed.
+deque([])
+648 seconds have passed.
+deque([])
+649 seconds have passed.
+deque([])
+650 seconds have passed.
+deque([])
+651 seconds have passed.
+deque([])
+652 seconds have passed.
+deque([])
+653 seconds have passed.
+deque([])
+654 seconds have passed.
+deque([])
+655 seconds have passed.
+deque([])
+656 seconds have passed.
+deque([])
+worker 2 done with ['R', 0]
+[('R', 'J'), ('R', 'I'), ('R', 'F'), ('R', 'E')]
+657 seconds have passed.
+deque([])
+658 seconds have passed.
+deque([])
+659 seconds have passed.
+deque([])
+660 seconds have passed.
+deque([])
+661 seconds have passed.
+deque([])
+worker 3 done with ['G', 0]
+[('G', 'K')]
+worker 3 assigned ['K', 71]
+662 seconds have passed.
+deque([])
+663 seconds have passed.
+deque([])
+664 seconds have passed.
+deque([])
+665 seconds have passed.
+deque([])
+666 seconds have passed.
+deque([])
+667 seconds have passed.
+deque([])
+668 seconds have passed.
+deque([])
+669 seconds have passed.
+deque([])
+670 seconds have passed.
+deque([])
+671 seconds have passed.
+deque([])
+672 seconds have passed.
+deque([])
+673 seconds have passed.
+deque([])
+674 seconds have passed.
+deque([])
+675 seconds have passed.
+deque([])
+676 seconds have passed.
+deque([])
+677 seconds have passed.
+deque([])
+678 seconds have passed.
+deque([])
+679 seconds have passed.
+deque([])
+680 seconds have passed.
+deque([])
+681 seconds have passed.
+deque([])
+682 seconds have passed.
+deque([])
+683 seconds have passed.
+deque([])
+684 seconds have passed.
+deque([])
+685 seconds have passed.
+deque([])
+686 seconds have passed.
+deque([])
+687 seconds have passed.
+deque([])
+688 seconds have passed.
+deque([])
+689 seconds have passed.
+deque([])
+690 seconds have passed.
+deque([])
+691 seconds have passed.
+deque([])
+692 seconds have passed.
+deque([])
+693 seconds have passed.
+deque([])
+694 seconds have passed.
+deque([])
+695 seconds have passed.
+deque([])
+696 seconds have passed.
+deque([])
+697 seconds have passed.
+deque([])
+698 seconds have passed.
+deque([])
+699 seconds have passed.
+deque([])
+700 seconds have passed.
+deque([])
+701 seconds have passed.
+deque([])
+702 seconds have passed.
+deque([])
+703 seconds have passed.
+deque([])
+704 seconds have passed.
+deque([])
+705 seconds have passed.
+deque([])
+706 seconds have passed.
+deque([])
+707 seconds have passed.
+deque([])
+708 seconds have passed.
+deque([])
+709 seconds have passed.
+deque([])
+710 seconds have passed.
+deque([])
+711 seconds have passed.
+deque([])
+712 seconds have passed.
+deque([])
+713 seconds have passed.
+deque([])
+714 seconds have passed.
+deque([])
+715 seconds have passed.
+deque([])
+716 seconds have passed.
+deque([])
+717 seconds have passed.
+deque([])
+718 seconds have passed.
+deque([])
+719 seconds have passed.
+deque([])
+720 seconds have passed.
+deque([])
+721 seconds have passed.
+deque([])
+722 seconds have passed.
+deque([])
+723 seconds have passed.
+deque([])
+724 seconds have passed.
+deque([])
+725 seconds have passed.
+deque([])
+726 seconds have passed.
+deque([])
+727 seconds have passed.
+deque([])
+728 seconds have passed.
+deque([])
+729 seconds have passed.
+deque([])
+730 seconds have passed.
+deque([])
+731 seconds have passed.
+deque([])
+732 seconds have passed.
+deque([])
+worker 3 done with ['K', 0]
+[('K', 'J'), ('K', 'I'), ('K', 'E'), ('K', 'B')]
+worker 3 assigned ['B', 62]
+733 seconds have passed.
+deque([])
+734 seconds have passed.
+deque([])
+735 seconds have passed.
+deque([])
+736 seconds have passed.
+deque([])
+737 seconds have passed.
+deque([])
+738 seconds have passed.
+deque([])
+739 seconds have passed.
+deque([])
+740 seconds have passed.
+deque([])
+741 seconds have passed.
+deque([])
+742 seconds have passed.
+deque([])
+743 seconds have passed.
+deque([])
+744 seconds have passed.
+deque([])
+745 seconds have passed.
+deque([])
+746 seconds have passed.
+deque([])
+747 seconds have passed.
+deque([])
+748 seconds have passed.
+deque([])
+749 seconds have passed.
+deque([])
+750 seconds have passed.
+deque([])
+751 seconds have passed.
+deque([])
+752 seconds have passed.
+deque([])
+753 seconds have passed.
+deque([])
+754 seconds have passed.
+deque([])
+755 seconds have passed.
+deque([])
+756 seconds have passed.
+deque([])
+757 seconds have passed.
+deque([])
+758 seconds have passed.
+deque([])
+759 seconds have passed.
+deque([])
+760 seconds have passed.
+deque([])
+761 seconds have passed.
+deque([])
+762 seconds have passed.
+deque([])
+763 seconds have passed.
+deque([])
+764 seconds have passed.
+deque([])
+765 seconds have passed.
+deque([])
+766 seconds have passed.
+deque([])
+767 seconds have passed.
+deque([])
+768 seconds have passed.
+deque([])
+769 seconds have passed.
+deque([])
+770 seconds have passed.
+deque([])
+771 seconds have passed.
+deque([])
+772 seconds have passed.
+deque([])
+773 seconds have passed.
+deque([])
+774 seconds have passed.
+deque([])
+775 seconds have passed.
+deque([])
+776 seconds have passed.
+deque([])
+777 seconds have passed.
+deque([])
+778 seconds have passed.
+deque([])
+779 seconds have passed.
+deque([])
+780 seconds have passed.
+deque([])
+781 seconds have passed.
+deque([])
+782 seconds have passed.
+deque([])
+783 seconds have passed.
+deque([])
+784 seconds have passed.
+deque([])
+785 seconds have passed.
+deque([])
+786 seconds have passed.
+deque([])
+787 seconds have passed.
+deque([])
+788 seconds have passed.
+deque([])
+789 seconds have passed.
+deque([])
+790 seconds have passed.
+deque([])
+791 seconds have passed.
+deque([])
+792 seconds have passed.
+deque([])
+793 seconds have passed.
+deque([])
+794 seconds have passed.
+deque([])
+worker 3 done with ['B', 0]
+[('B', 'J'), ('B', 'Z'), ('B', 'E'), ('B', 'I')]
+worker 3 assigned ['J', 70]
+795 seconds have passed.
+deque([])
+796 seconds have passed.
+deque([])
+797 seconds have passed.
+deque([])
+798 seconds have passed.
+deque([])
+799 seconds have passed.
+deque([])
+800 seconds have passed.
+deque([])
+801 seconds have passed.
+deque([])
+802 seconds have passed.
+deque([])
+803 seconds have passed.
+deque([])
+804 seconds have passed.
+deque([])
+805 seconds have passed.
+deque([])
+806 seconds have passed.
+deque([])
+807 seconds have passed.
+deque([])
+808 seconds have passed.
+deque([])
+809 seconds have passed.
+deque([])
+810 seconds have passed.
+deque([])
+811 seconds have passed.
+deque([])
+812 seconds have passed.
+deque([])
+813 seconds have passed.
+deque([])
+814 seconds have passed.
+deque([])
+815 seconds have passed.
+deque([])
+816 seconds have passed.
+deque([])
+817 seconds have passed.
+deque([])
+818 seconds have passed.
+deque([])
+819 seconds have passed.
+deque([])
+820 seconds have passed.
+deque([])
+821 seconds have passed.
+deque([])
+822 seconds have passed.
+deque([])
+823 seconds have passed.
+deque([])
+824 seconds have passed.
+deque([])
+825 seconds have passed.
+deque([])
+826 seconds have passed.
+deque([])
+827 seconds have passed.
+deque([])
+828 seconds have passed.
+deque([])
+829 seconds have passed.
+deque([])
+830 seconds have passed.
+deque([])
+831 seconds have passed.
+deque([])
+832 seconds have passed.
+deque([])
+833 seconds have passed.
+deque([])
+834 seconds have passed.
+deque([])
+835 seconds have passed.
+deque([])
+836 seconds have passed.
+deque([])
+837 seconds have passed.
+deque([])
+838 seconds have passed.
+deque([])
+839 seconds have passed.
+deque([])
+840 seconds have passed.
+deque([])
+841 seconds have passed.
+deque([])
+842 seconds have passed.
+deque([])
+843 seconds have passed.
+deque([])
+844 seconds have passed.
+deque([])
+845 seconds have passed.
+deque([])
+846 seconds have passed.
+deque([])
+847 seconds have passed.
+deque([])
+848 seconds have passed.
+deque([])
+849 seconds have passed.
+deque([])
+850 seconds have passed.
+deque([])
+851 seconds have passed.
+deque([])
+852 seconds have passed.
+deque([])
+853 seconds have passed.
+deque([])
+854 seconds have passed.
+deque([])
+855 seconds have passed.
+deque([])
+856 seconds have passed.
+deque([])
+857 seconds have passed.
+deque([])
+858 seconds have passed.
+deque([])
+859 seconds have passed.
+deque([])
+860 seconds have passed.
+deque([])
+861 seconds have passed.
+deque([])
+862 seconds have passed.
+deque([])
+863 seconds have passed.
+deque([])
+864 seconds have passed.
+deque([])
+worker 3 done with ['J', 0]
+[('J', 'E'), ('J', 'F'), ('J', 'X')]
+worker 3 assigned ['E', 65]
+865 seconds have passed.
+deque([])
+866 seconds have passed.
+deque([])
+867 seconds have passed.
+deque([])
+868 seconds have passed.
+deque([])
+869 seconds have passed.
+deque([])
+870 seconds have passed.
+deque([])
+871 seconds have passed.
+deque([])
+872 seconds have passed.
+deque([])
+873 seconds have passed.
+deque([])
+874 seconds have passed.
+deque([])
+875 seconds have passed.
+deque([])
+876 seconds have passed.
+deque([])
+877 seconds have passed.
+deque([])
+878 seconds have passed.
+deque([])
+879 seconds have passed.
+deque([])
+880 seconds have passed.
+deque([])
+881 seconds have passed.
+deque([])
+882 seconds have passed.
+deque([])
+883 seconds have passed.
+deque([])
+884 seconds have passed.
+deque([])
+885 seconds have passed.
+deque([])
+886 seconds have passed.
+deque([])
+887 seconds have passed.
+deque([])
+888 seconds have passed.
+deque([])
+889 seconds have passed.
+deque([])
+890 seconds have passed.
+deque([])
+891 seconds have passed.
+deque([])
+892 seconds have passed.
+deque([])
+893 seconds have passed.
+deque([])
+894 seconds have passed.
+deque([])
+895 seconds have passed.
+deque([])
+896 seconds have passed.
+deque([])
+897 seconds have passed.
+deque([])
+898 seconds have passed.
+deque([])
+899 seconds have passed.
+deque([])
+900 seconds have passed.
+deque([])
+901 seconds have passed.
+deque([])
+902 seconds have passed.
+deque([])
+903 seconds have passed.
+deque([])
+904 seconds have passed.
+deque([])
+905 seconds have passed.
+deque([])
+906 seconds have passed.
+deque([])
+907 seconds have passed.
+deque([])
+908 seconds have passed.
+deque([])
+909 seconds have passed.
+deque([])
+910 seconds have passed.
+deque([])
+911 seconds have passed.
+deque([])
+912 seconds have passed.
+deque([])
+913 seconds have passed.
+deque([])
+914 seconds have passed.
+deque([])
+915 seconds have passed.
+deque([])
+916 seconds have passed.
+deque([])
+917 seconds have passed.
+deque([])
+918 seconds have passed.
+deque([])
+919 seconds have passed.
+deque([])
+920 seconds have passed.
+deque([])
+921 seconds have passed.
+deque([])
+922 seconds have passed.
+deque([])
+923 seconds have passed.
+deque([])
+924 seconds have passed.
+deque([])
+925 seconds have passed.
+deque([])
+926 seconds have passed.
+deque([])
+927 seconds have passed.
+deque([])
+928 seconds have passed.
+deque([])
+929 seconds have passed.
+deque([])
+worker 3 done with ['E', 0]
+[('E', 'Z'), ('E', 'F'), ('E', 'I'), ('E', 'X')]
+worker 3 assigned ['F', 66]
+930 seconds have passed.
+deque([])
+931 seconds have passed.
+deque([])
+932 seconds have passed.
+deque([])
+933 seconds have passed.
+deque([])
+934 seconds have passed.
+deque([])
+935 seconds have passed.
+deque([])
+936 seconds have passed.
+deque([])
+937 seconds have passed.
+deque([])
+938 seconds have passed.
+deque([])
+939 seconds have passed.
+deque([])
+940 seconds have passed.
+deque([])
+941 seconds have passed.
+deque([])
+942 seconds have passed.
+deque([])
+943 seconds have passed.
+deque([])
+944 seconds have passed.
+deque([])
+945 seconds have passed.
+deque([])
+946 seconds have passed.
+deque([])
+947 seconds have passed.
+deque([])
+948 seconds have passed.
+deque([])
+949 seconds have passed.
+deque([])
+950 seconds have passed.
+deque([])
+951 seconds have passed.
+deque([])
+952 seconds have passed.
+deque([])
+953 seconds have passed.
+deque([])
+954 seconds have passed.
+deque([])
+955 seconds have passed.
+deque([])
+956 seconds have passed.
+deque([])
+957 seconds have passed.
+deque([])
+958 seconds have passed.
+deque([])
+959 seconds have passed.
+deque([])
+960 seconds have passed.
+deque([])
+961 seconds have passed.
+deque([])
+962 seconds have passed.
+deque([])
+963 seconds have passed.
+deque([])
+964 seconds have passed.
+deque([])
+965 seconds have passed.
+deque([])
+966 seconds have passed.
+deque([])
+967 seconds have passed.
+deque([])
+968 seconds have passed.
+deque([])
+969 seconds have passed.
+deque([])
+970 seconds have passed.
+deque([])
+971 seconds have passed.
+deque([])
+972 seconds have passed.
+deque([])
+973 seconds have passed.
+deque([])
+974 seconds have passed.
+deque([])
+975 seconds have passed.
+deque([])
+976 seconds have passed.
+deque([])
+977 seconds have passed.
+deque([])
+978 seconds have passed.
+deque([])
+979 seconds have passed.
+deque([])
+980 seconds have passed.
+deque([])
+981 seconds have passed.
+deque([])
+982 seconds have passed.
+deque([])
+983 seconds have passed.
+deque([])
+984 seconds have passed.
+deque([])
+985 seconds have passed.
+deque([])
+986 seconds have passed.
+deque([])
+987 seconds have passed.
+deque([])
+988 seconds have passed.
+deque([])
+989 seconds have passed.
+deque([])
+990 seconds have passed.
+deque([])
+991 seconds have passed.
+deque([])
+992 seconds have passed.
+deque([])
+993 seconds have passed.
+deque([])
+994 seconds have passed.
+deque([])
+995 seconds have passed.
+deque([])
+worker 3 done with ['F', 0]
+[('F', 'I'), ('F', 'X'), ('F', 'Z')]
+worker 3 assigned ['X', 84]
+996 seconds have passed.
+deque([])
+997 seconds have passed.
+deque([])
+998 seconds have passed.
+deque([])
+999 seconds have passed.
+deque([])
+1000 seconds have passed.
+deque([])
+1001 seconds have passed.
+deque([])
+1002 seconds have passed.
+deque([])
+1003 seconds have passed.
+deque([])
+1004 seconds have passed.
+deque([])
+1005 seconds have passed.
+deque([])
+1006 seconds have passed.
+deque([])
+1007 seconds have passed.
+deque([])
+1008 seconds have passed.
+deque([])
+1009 seconds have passed.
+deque([])
+1010 seconds have passed.
+deque([])
+1011 seconds have passed.
+deque([])
+1012 seconds have passed.
+deque([])
+1013 seconds have passed.
+deque([])
+1014 seconds have passed.
+deque([])
+1015 seconds have passed.
+deque([])
+1016 seconds have passed.
+deque([])
+1017 seconds have passed.
+deque([])
+1018 seconds have passed.
+deque([])
+1019 seconds have passed.
+deque([])
+1020 seconds have passed.
+deque([])
+1021 seconds have passed.
+deque([])
+1022 seconds have passed.
+deque([])
+1023 seconds have passed.
+deque([])
+1024 seconds have passed.
+deque([])
+1025 seconds have passed.
+deque([])
+1026 seconds have passed.
+deque([])
+1027 seconds have passed.
+deque([])
+1028 seconds have passed.
+deque([])
+1029 seconds have passed.
+deque([])
+1030 seconds have passed.
+deque([])
+1031 seconds have passed.
+deque([])
+1032 seconds have passed.
+deque([])
+1033 seconds have passed.
+deque([])
+1034 seconds have passed.
+deque([])
+1035 seconds have passed.
+deque([])
+1036 seconds have passed.
+deque([])
+1037 seconds have passed.
+deque([])
+1038 seconds have passed.
+deque([])
+1039 seconds have passed.
+deque([])
+1040 seconds have passed.
+deque([])
+1041 seconds have passed.
+deque([])
+1042 seconds have passed.
+deque([])
+1043 seconds have passed.
+deque([])
+1044 seconds have passed.
+deque([])
+1045 seconds have passed.
+deque([])
+1046 seconds have passed.
+deque([])
+1047 seconds have passed.
+deque([])
+1048 seconds have passed.
+deque([])
+1049 seconds have passed.
+deque([])
+1050 seconds have passed.
+deque([])
+1051 seconds have passed.
+deque([])
+1052 seconds have passed.
+deque([])
+1053 seconds have passed.
+deque([])
+1054 seconds have passed.
+deque([])
+1055 seconds have passed.
+deque([])
+1056 seconds have passed.
+deque([])
+1057 seconds have passed.
+deque([])
+1058 seconds have passed.
+deque([])
+1059 seconds have passed.
+deque([])
+1060 seconds have passed.
+deque([])
+1061 seconds have passed.
+deque([])
+1062 seconds have passed.
+deque([])
+1063 seconds have passed.
+deque([])
+1064 seconds have passed.
+deque([])
+1065 seconds have passed.
+deque([])
+1066 seconds have passed.
+deque([])
+1067 seconds have passed.
+deque([])
+1068 seconds have passed.
+deque([])
+1069 seconds have passed.
+deque([])
+1070 seconds have passed.
+deque([])
+1071 seconds have passed.
+deque([])
+1072 seconds have passed.
+deque([])
+1073 seconds have passed.
+deque([])
+1074 seconds have passed.
+deque([])
+1075 seconds have passed.
+deque([])
+1076 seconds have passed.
+deque([])
+1077 seconds have passed.
+deque([])
+1078 seconds have passed.
+deque([])
+1079 seconds have passed.
+deque([])
+worker 3 done with ['X', 0]
+[('X', 'Z'), ('X', 'I')]
+worker 3 assigned ['Z', 86]
+1080 seconds have passed.
+deque([])
+1081 seconds have passed.
+deque([])
+1082 seconds have passed.
+deque([])
+1083 seconds have passed.
+deque([])
+1084 seconds have passed.
+deque([])
+1085 seconds have passed.
+deque([])
+1086 seconds have passed.
+deque([])
+1087 seconds have passed.
+deque([])
+1088 seconds have passed.
+deque([])
+1089 seconds have passed.
+deque([])
+1090 seconds have passed.
+deque([])
+1091 seconds have passed.
+deque([])
+1092 seconds have passed.
+deque([])
+1093 seconds have passed.
+deque([])
+1094 seconds have passed.
+deque([])
+1095 seconds have passed.
+deque([])
+1096 seconds have passed.
+deque([])
+1097 seconds have passed.
+deque([])
+1098 seconds have passed.
+deque([])
+1099 seconds have passed.
+deque([])
+1100 seconds have passed.
+deque([])
+1101 seconds have passed.
+deque([])
+1102 seconds have passed.
+deque([])
+1103 seconds have passed.
+deque([])
+1104 seconds have passed.
+deque([])
+1105 seconds have passed.
+deque([])
+1106 seconds have passed.
+deque([])
+1107 seconds have passed.
+deque([])
+1108 seconds have passed.
+deque([])
+1109 seconds have passed.
+deque([])
+1110 seconds have passed.
+deque([])
+1111 seconds have passed.
+deque([])
+1112 seconds have passed.
+deque([])
+1113 seconds have passed.
+deque([])
+1114 seconds have passed.
+deque([])
+1115 seconds have passed.
+deque([])
+1116 seconds have passed.
+deque([])
+1117 seconds have passed.
+deque([])
+1118 seconds have passed.
+deque([])
+1119 seconds have passed.
+deque([])
+1120 seconds have passed.
+deque([])
+1121 seconds have passed.
+deque([])
+1122 seconds have passed.
+deque([])
+1123 seconds have passed.
+deque([])
+1124 seconds have passed.
+deque([])
+1125 seconds have passed.
+deque([])
+1126 seconds have passed.
+deque([])
+1127 seconds have passed.
+deque([])
+1128 seconds have passed.
+deque([])
+1129 seconds have passed.
+deque([])
+1130 seconds have passed.
+deque([])
+1131 seconds have passed.
+deque([])
+1132 seconds have passed.
+deque([])
+1133 seconds have passed.
+deque([])
+1134 seconds have passed.
+deque([])
+1135 seconds have passed.
+deque([])
+1136 seconds have passed.
+deque([])
+1137 seconds have passed.
+deque([])
+1138 seconds have passed.
+deque([])
+1139 seconds have passed.
+deque([])
+1140 seconds have passed.
+deque([])
+1141 seconds have passed.
+deque([])
+1142 seconds have passed.
+deque([])
+1143 seconds have passed.
+deque([])
+1144 seconds have passed.
+deque([])
+1145 seconds have passed.
+deque([])
+1146 seconds have passed.
+deque([])
+1147 seconds have passed.
+deque([])
+1148 seconds have passed.
+deque([])
+1149 seconds have passed.
+deque([])
+1150 seconds have passed.
+deque([])
+1151 seconds have passed.
+deque([])
+1152 seconds have passed.
+deque([])
+1153 seconds have passed.
+deque([])
+1154 seconds have passed.
+deque([])
+1155 seconds have passed.
+deque([])
+1156 seconds have passed.
+deque([])
+1157 seconds have passed.
+deque([])
+1158 seconds have passed.
+deque([])
+1159 seconds have passed.
+deque([])
+1160 seconds have passed.
+deque([])
+1161 seconds have passed.
+deque([])
+1162 seconds have passed.
+deque([])
+1163 seconds have passed.
+deque([])
+1164 seconds have passed.
+deque([])
+1165 seconds have passed.
+deque([])
+worker 3 done with ['Z', 0]
+[('Z', 'I')]
+worker 3 assigned ['I', 69]
+1166 seconds have passed.
+deque([])
+1167 seconds have passed.
+deque([])
+1168 seconds have passed.
+deque([])
+1169 seconds have passed.
+deque([])
+1170 seconds have passed.
+deque([])
+1171 seconds have passed.
+deque([])
+1172 seconds have passed.
+deque([])
+1173 seconds have passed.
+deque([])
+1174 seconds have passed.
+deque([])
+1175 seconds have passed.
+deque([])
+1176 seconds have passed.
+deque([])
+1177 seconds have passed.
+deque([])
+1178 seconds have passed.
+deque([])
+1179 seconds have passed.
+deque([])
+1180 seconds have passed.
+deque([])
+1181 seconds have passed.
+deque([])
+1182 seconds have passed.
+deque([])
+1183 seconds have passed.
+deque([])
+1184 seconds have passed.
+deque([])
+1185 seconds have passed.
+deque([])
+1186 seconds have passed.
+deque([])
+1187 seconds have passed.
+deque([])
+1188 seconds have passed.
+deque([])
+1189 seconds have passed.
+deque([])
+1190 seconds have passed.
+deque([])
+1191 seconds have passed.
+deque([])
+1192 seconds have passed.
+deque([])
+1193 seconds have passed.
+deque([])
+1194 seconds have passed.
+deque([])
+1195 seconds have passed.
+deque([])
+1196 seconds have passed.
+deque([])
+1197 seconds have passed.
+deque([])
+1198 seconds have passed.
+deque([])
+1199 seconds have passed.
+deque([])
+1200 seconds have passed.
+deque([])
+1201 seconds have passed.
+deque([])
+1202 seconds have passed.
+deque([])
+1203 seconds have passed.
+deque([])
+1204 seconds have passed.
+deque([])
+1205 seconds have passed.
+deque([])
+1206 seconds have passed.
+deque([])
+1207 seconds have passed.
+deque([])
+1208 seconds have passed.
+deque([])
+1209 seconds have passed.
+deque([])
+1210 seconds have passed.
+deque([])
+1211 seconds have passed.
+deque([])
+1212 seconds have passed.
+deque([])
+1213 seconds have passed.
+deque([])
+1214 seconds have passed.
+deque([])
+1215 seconds have passed.
+deque([])
+1216 seconds have passed.
+deque([])
+1217 seconds have passed.
+deque([])
+1218 seconds have passed.
+deque([])
+1219 seconds have passed.
+deque([])
+1220 seconds have passed.
+deque([])
+1221 seconds have passed.
+deque([])
+1222 seconds have passed.
+deque([])
+1223 seconds have passed.
+deque([])
+1224 seconds have passed.
+deque([])
+1225 seconds have passed.
+deque([])
+1226 seconds have passed.
+deque([])
+1227 seconds have passed.
+deque([])
+1228 seconds have passed.
+deque([])
+1229 seconds have passed.
+deque([])
+1230 seconds have passed.
+deque([])
+1231 seconds have passed.
+deque([])
+1232 seconds have passed.
+deque([])
+1233 seconds have passed.
+deque([])
+1234 seconds have passed.
+deque([])
+worker 3 done with ['I', 0]
+[]
+1235 seconds have passed.
+deque([])
+set()
+done?
+1235
