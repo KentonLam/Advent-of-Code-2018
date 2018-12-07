@@ -58,8 +58,7 @@ def solve_2(input_lines):
     i = 0
     while graph.number_of_edges() or (alphabet - done):
         print(i, 'seconds have passed.')
-        possible = get_possible()
-        print('available', possible)
+        # possible = get_possible()
 
         for n, worker in enumerate(workers):
             if worker[0] is not None:
@@ -72,8 +71,10 @@ def solve_2(input_lines):
                     graph.remove_edges_from(to_remove)
                     worker[0] = None
 
-                    possible = get_possible()
+        possible = get_possible()
+        print('available', possible)
 
+        for n, worker in enumerate(workers):
             if worker[0] is None and possible: # worker is idle
                 worker[0] = possible.popleft()
                 worker[1] = time_needed(worker[0])
@@ -83,7 +84,7 @@ def solve_2(input_lines):
 
         # input('pause')
 
-    print(i)
+    print('total time', i-1)
 
 
 
