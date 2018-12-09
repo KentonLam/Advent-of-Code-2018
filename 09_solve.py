@@ -1,4 +1,5 @@
 from collections import defaultdict, deque, namedtuple
+from blist import blist
 
 def parse(f):
     s = f.split(' ')
@@ -11,7 +12,7 @@ def solve_1(data):
 
     counter = 1
     current = 0
-    circle = deque([0])
+    circle = blist([0])
 
     # computes the circular index of x.
     c = lambda x: (x % len(circle))
@@ -24,25 +25,29 @@ def solve_1(data):
             if counter > last_marble:
                 break
             if counter % 23 == 0:
-                seven_clockwise = circle[c(current-7)]
+                seven_index = c(current-7)
+                seven_clockwise = circle[seven_index]
                 
-                del circle[c(current-7)]
-                current = c(current-7)
+                del circle[seven_index] 
+                if seven_index >= 7:
+                    current = c(seven_index) # works normally.
+                else:
+                    current = c(seven_index) # shift by 1.
 
                 marble_worth = counter + seven_clockwise
-                print(counter, player, marble_worth)
+                # print(counter, player, marble_worth)
                 scores[player] += marble_worth
             else:
                 current = c(current+2)
                 circle.insert(current, counter)
             counter += 1
-            print('Step', counter, player+1, end=': ')
-            for i, x in enumerate(circle):
-                if i == current:
-                    print('(', x, ')', sep='', end=' ')
-                else:
-                    print(x, end=' ')
-            print()
+            # print('Step', counter-1, player+1, end=': ')
+            # for i, x in enumerate(circle):
+            #     if i == current:
+            #         print('(', x, ')', sep='', end=' ')
+            #     else:
+            #         print(x, end=' ')
+            # print()
 
             # print(counter, current, circle[current], circle)
             # if input() == 'break':
@@ -50,12 +55,16 @@ def solve_1(data):
             #     break
     
     print(max(scores.items(), key=lambda x: x[1]))
-    print(scores)
+    # print(scores)
 
 
+def solve_2():
+    solve_1((418, 71339*100))
 
 
 if __name__ == "__main__":
+    solve_2()
+    print('x')
     with open('09_input.txt') as f:
         # solve_1(parse(f.read()))
         solve_1((17, 1104))
