@@ -1,14 +1,12 @@
-import networkx
 from collections import defaultdict, deque
 
 def parse(x):
     return deque(int(x) for x in x.read().split(' '))
 
-
 counter = 0
 metadata_sum = 0
 
-def parse_one_node(numbers, graph: networkx.DiGraph) -> (int, int):
+def parse_one_node(numbers) -> (int, int):
     global counter
     global metadata_sum
     counter += 1 
@@ -21,8 +19,7 @@ def parse_one_node(numbers, graph: networkx.DiGraph) -> (int, int):
     # metadata.
     child_values = []
     for i in range(c_left):
-        c_id, c_val = parse_one_node(numbers, graph)
-        graph.add_edge(this_counter, c_id)
+        c_id, c_val = parse_one_node(numbers)
         child_values.append(c_val)
 
     this_value = 0
@@ -38,22 +35,20 @@ def parse_one_node(numbers, graph: networkx.DiGraph) -> (int, int):
         this_value = sum(meta)
     
     metadata_sum += sum(meta)
-    graph.add_node(this_counter, metadata=meta)
 
     print(meta, this_value)
 
     return (this_counter, this_value)
 
+# also solves 2.
 def solve_1(numbers):
     # number of child/metadata nodes more we are expecting.
 
-    graph = networkx.DiGraph()
-
-    parse_one_node(numbers, graph)
+    parse_one_node(numbers)
     print(metadata_sum)
-    with open('08_graph.json', 'w') as g:
-        from json import dump
-        dump(networkx.node_link_data(graph), g)
+    # with open('08_graph.json', 'w') as g:
+    #     from json import dump
+    #     dump(networkx.node_link_data(graph), g)
 
 
 if __name__ == "__main__":
