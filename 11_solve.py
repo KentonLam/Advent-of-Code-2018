@@ -103,7 +103,7 @@ def solve_2(serial=9424):
         for x in range(300):
             array[y][x] = power_level(x+1, y+1, serial)
 
-    prefixes = (prefixSum2D(array.tolist()))
+    prefixes = np.array(prefixSum2D(array.tolist()))
 
     powers = {}
     for size in range(1, 301):
@@ -121,7 +121,7 @@ def solve_2(serial=9424):
                     
                 powers[(x, y, size)] = this_power
 
-        print(max(powers.items(), key=lambda x: x[1]))
+        # print(max(powers.items(), key=lambda x: x[1]))
     print(max(powers.items(), key=lambda x: x[1]))
 
     print(array)
