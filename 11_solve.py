@@ -103,24 +103,26 @@ def solve_2(serial=9424):
         for x in range(300):
             array[y][x] = power_level(x+1, y+1, serial)
 
-
-
     prefixes = (prefixSum2D(array.tolist()))
 
     powers = {}
-
     for size in range(1, 301):
         print('size', size)
         for x in range(1, 301-size-1):
             for y in range(1, 301-size-1):
+                this_power = prefixes[y+size-2][x+size-2]
+                # conditional inclusion/exclusion using prefix sums
                 if x > 1:
-                    pass
-                powers[(x, y, size)] = prefixes[y+size-1][x+size-1] - prefixes[y+size-2][x-2] - prefixes[y+1][x+size-1] + prefixes[y-1][x-1]
-
+                    this_power -= prefixes[y+size-2][x-2]
+                if y > 1:
+                    this_power -= prefixes[y-2][x+size-2]
+                if x > 1 and y > 1:
+                    this_power += prefixes[y-2][x-2]
+                    
+                powers[(x, y, size)] = this_power
 
         print(max(powers.items(), key=lambda x: x[1]))
     print(max(powers.items(), key=lambda x: x[1]))
-
 
     print(array)
 
