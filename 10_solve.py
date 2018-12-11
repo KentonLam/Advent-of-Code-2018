@@ -26,6 +26,32 @@ def compute_closeness(sky):
     return closeness
 
 def solve_1(data):
+    import random
+    from functools import reduce
+    from operator import mul
+    from statistics import mean, median, mode
+    
+    for i in range(10):
+        sample = random.sample(data, 64)
+        sample.sort(key=lambda x: x[1])
+        times = []
+        for i in range(len(sample)//2):
+            star_1 = sample[i]
+            star_2 = sample[len(sample)-i-1]
+
+            dv_x = star_1[1][0] - star_2[1][0]
+            dv_y = star_1[1][1] - star_2[1][1]
+            dx_x = star_1[0][0] - star_2[0][0]
+            dx_y = star_1[0][1] - star_2[0][1]
+
+            try:
+                t = -(dv_x*dx_x + dv_y*dx_y) / (dv_x**2 + dv_y**2)
+            except ZeroDivisionError:
+                continue
+            times.append(t)
+        print('mean', round(mean(times)), 'median', round(median(times)))
+    return
+
     sky = dict()
     for t in range(10630, 10650):
         sky.clear()
@@ -51,10 +77,6 @@ def solve_1(data):
             print()
             print(t)
             print(compute_closeness(sky))
-
-
-
-
 
 
 def solve_2(data):
