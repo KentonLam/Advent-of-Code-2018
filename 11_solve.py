@@ -105,6 +105,9 @@ def solve_2(serial=9424):
 
     prefixes = np.array(prefixSum2D(array.tolist()))
 
+    from util import Maximiser
+    maxer = Maximiser()
+
     powers = {}
     for size in range(1, 301):
         print('size', size)
@@ -119,10 +122,9 @@ def solve_2(serial=9424):
                 if x > 1 and y > 1:
                     this_power += prefixes[y-2][x-2]
                     
-                powers[(x, y, size)] = this_power
-
+                maxer.update((x, y, size), this_power)
+        print(maxer.get_max())
         # print(max(powers.items(), key=lambda x: x[1]))
-    print(max(powers.items(), key=lambda x: x[1]))
 
     print(array)
 

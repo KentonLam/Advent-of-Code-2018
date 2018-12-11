@@ -35,3 +35,17 @@ def min_max_tuples(tuples: Iterable[Tuple]) -> List[MinMax]:
                 maxs[i] = val
     
     return [MinMax(mins[i], maxs[i]) for i in range(len(mins))]
+
+class Maximiser:
+    def __init__(self, is_max=True):
+        self.key = None 
+        self.value = None
+        self.max = is_max
+    
+    def update(self, key, value):
+        if self.key is None or ((value > self.value) if self.max else (value < self.value)):
+            self.key = key 
+            self.value = value
+
+    def get_max(self):
+        return (self.key, self.value)
