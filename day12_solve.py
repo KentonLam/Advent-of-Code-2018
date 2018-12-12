@@ -14,7 +14,7 @@ def parse(file):
 
     for line in f[2:]:
         left, _, right = line.split(' ')
-        mappings[left] = right
+        mappings[tuple(c == '#' for c in left)] = right == '#'
 
     return (initial, mappings)
 
@@ -25,58 +25,65 @@ def search_in_dict(substring, pots):
 def solve_1(data):
     changed = True 
 
-    # pots = defaultdict(lambda: False)
+    pots = defaultdict(lambda: False)
 
     s = data[0]
 
-    # for i, c in enumerate(s):
-    #     pots[i] = c == 
+    for i, c in enumerate(s):
+        pots[i] = c == '#'
+
     mapping = data[1]
+    # print(mapping)
 
     # for iteration in range(20):
     # return 
-    print('initial', s)
+    print('initial', pots)
 
-    left_index = 0
-    i = 0
-    while i < 20:
+    def matches(i, left):
+        return all(pots[i-2+n] == left[n] for n in range(5))
+
+    def print_pots(pots):
+        s = list(pots.items())
+        s.sort()
+        print(s[0][0], end=': ')
+        for n, p in s:
+            print('#' if p else '.', end='')
         print()
-        print('Iteration', i)
-        changed = False 
-        if s.find('#') <= 2:
-            x = 4-s.find('#')
-            s = '.'*x + s 
-            left_index -= x
-            continue
-        if len(s)-1-s.rfind('#') <= 2:
-            x = (len(s)-s.rfind('#'))
-            s = s + '.'*x
-            continue
-        for left, right in mapping.items():
-            
-            # print(s)
-            match = s.find(left)
-            if match == -1: continue
-            print(left, right)
-            print(s)
-            s = s[:match+2] + right + s[match+3:]
-            # print(s)
-            # print()
-            changed = True
-        i += 1
-        print()
+
+    print('INITIAL')
+    print_pots(pots)
+
+    left_index = -2
+    right_index = len(pots)+2
+    it = 0
+    while it < 20:
+        if it % 1000 == 0:
+            print('Iteration', it+1)
+        new_pots = defaultdict(lambda: False)
+        for i in range(left_index, right_index):
+            for left, right in mapping.items():
+                if matches(i, left):
+                    new_pots[i] = right
+                    if i-2 < left_index and right:
+                        left_index = i-2
+                    if i+2 > right_index and right:
+                        right_index = i+2
+                    break
+        pots = new_pots
+        # print_pots(pots)
+        it += 1
     
     print(left_index)
     sol = 0
-    for i, c in enumerate(s):
-        if c == '#':
-            sol += left_index+i
+    for i, c in new_pots.items():
+        if c:
+            sol += i
 
-    print(s, sol)
+    print('solution', sol)
 
 def solve_2(data):
     pass 
 
 if __name__ == "__main__":
-    with open('day12_test.txt') as f:
+    with open('day12_input.txt') as f:
         print(solve_1(parse(f)))
