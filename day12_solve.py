@@ -25,12 +25,14 @@ def search_in_dict(substring, pots):
 def solve_1(data):
     changed = True 
 
-    pots = defaultdict(lambda: False)
+    pots = set()
 
     s = data[0]
 
+    print(s)
     for i, c in enumerate(s):
-        pots[i] = c == '#'
+        if c == '#':
+            pots.add(i)
 
     mapping = data[1]
     # print(mapping)
@@ -40,50 +42,63 @@ def solve_1(data):
     print('initial', pots)
 
     def matches(i, left):
-        return all(pots[i-2+n] == left[n] for n in range(5))
+        for n, plant in enumerate(left):
+            if not ( ((i-2+n) in pots) == plant):
+                return False 
+        return True
+        # return all(pots[i-2+n] == left[n] for n in range(5))
+
+    # pots = {0, 1, 2}
+    # print(matches(0, (False, True, True, True, True)))
 
     def print_pots(pots):
-        s = list(pots.items())
-        s.sort()
-        print(s[0][0], end=': ')
-        for n, p in s:
-            print('#' if p else '.', end='')
+        print(min(pots), end=': ')
+        for i in range(min(pots), max(pots)+1):
+            print('#' if i in pots else '.', end='')
         print()
 
     print('INITIAL')
     print_pots(pots)
 
     left_index = -2
-    right_index = len(pots)+2
+    right_index = max(pots)+2
     it = 0
-    while it < 20:
+    prev_sol = 0
+    while it < 50000000000:
         if it % 1000 == 0:
             print('Iteration', it+1)
-        new_pots = defaultdict(lambda: False)
+        new_pots = set()
         for i in range(left_index, right_index):
             for left, right in mapping.items():
                 if matches(i, left):
-                    new_pots[i] = right
+                    if right:
+                        new_pots.add(i)
                     if i-2 < left_index and right:
                         left_index = i-2
                     if i+2 > right_index and right:
                         right_index = i+2
                     break
         pots = new_pots
-        # print_pots(pots)
-        it += 1
+        print('Iteration', it+1, end=' ')
+        print_pots(pots)
     
-    print(left_index)
-    sol = 0
-    for i, c in new_pots.items():
-        if c:
+        sol = 0
+        for i in new_pots:
             sol += i
 
-    print('solution', sol)
+        print(f'{it+1}, {sol}, {sol-prev_sol}')
+        prev_sol = sol
+        it += 1
+        
+        # quit out of this. efficient algorithm below.
+        break 
+
+    # At generation 124 and beyond, the pot sum is exactly 8990 + (t-124)*58
+    print('part 2', 8990 + (50000000000-123)*58)
 
 def solve_2(data):
     pass 
 
 if __name__ == "__main__":
-    with open('day12_input.txt') as f:
+    with open('day12_test.txt') as f:
         print(solve_1(parse(f)))
