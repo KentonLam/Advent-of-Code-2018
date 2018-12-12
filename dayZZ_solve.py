@@ -1,11 +1,14 @@
 from util import * 
-from collections import defaultdict, deque
-# import numpy as np 
-# import scipy as sp
+from collections import defaultdict, deque, namedtuple
+# import math
 # from statistics import mean
+
+# import numpy as np 
+import scipy as sp
 
 def parse(file):
     pass
+    sp.optimize.minimize()
 
 def solve_1(data):
     pass 
