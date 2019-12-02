@@ -55,7 +55,7 @@ def solve_2(data):
         #print(carts)
         for pos, cart in iter_carts:
             #print(pos, cart)
-            if pos not in carts: 
+            if pos not in carts or carts[pos] is not cart: 
                 print('cart has been removed!')
                 continue
 
