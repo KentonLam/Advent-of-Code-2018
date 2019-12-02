@@ -48,13 +48,16 @@ def parse(f):
 def solve_2(data):
     carts, turns, intersections = data
 
-    while True:
+    while len(carts) > 1:
         iter_carts = list(carts.items())
         iter_carts.sort(key=lambda x: x[0][::-1]) # sort by y, then x.
 
         #print(carts)
         for pos, cart in iter_carts:
             #print(pos, cart)
+            if pos not in carts: 
+                print('cart has been removed!')
+                continue
 
             # only change direction of carts which start the turn on a turn tile.
             if pos in turns:
@@ -77,16 +80,18 @@ def solve_2(data):
 
             if new_pos in carts:
                 print('imminent crash at:', new_pos)
-                return
+                del carts[pos]
+                del carts[new_pos]
+                continue
 
-            print(pos, new_pos, cart)
+            #print(pos, new_pos, cart)
             # move cart
             del carts[pos]
             carts[new_pos] = cart
-        print()
+        #print()
         #input()
-        
-    pass
+
+    print(carts)
 
 if __name__ == "__main__":
     with open('day13_input.txt') as f:
